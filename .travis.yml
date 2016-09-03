@@ -4,11 +4,13 @@ go:
 install:
 - go get github.com/spf13/hugo
 script: hugo -t casper
-before_deploy: "cd build"
+before_deploy: cd build
 deploy:
   provider: cloudfiles
-  username: "RACKSPACE USERNAME"
-  api_key: "RACKSPACE API KEY"
-  region: "CLOUDFILE REGION"
-  container: "CLOUDFILES CONTAINER NAME"
-  skip_cleanup: true
+  username: caseybeckingrac
+  api_key:
+    secure: Q1JJQpP6M0Sije/gj4aHRz4f/R7fnM2k4mlqAezIdEsY8b8QJLl+ZACtT9YYnuCPSEBFwIqDFaNvAVJuH/UCZPvxsLui9M6ZXuerSR9TVqILeFFmp25GnZDBo/H9h3XuIFMC8L0LfWNamM9zDZdEMM93Ui5eJKGKC2BMc8ewmtbKfa8WTXnbcHLIzIwrepr2bNRbTIq6oPzZPWnTuLXmA6m/xFs1CqPFozizgRWp/poG1mDUhxfI76vLFivJJdInumlm4Cpev0bfcRRiO3Tk2a22NaaPESYHZFi99Yz/OlYBasR/XbSnJR27pJiM7y31r6mlQsPlaV5FHcTrG1jWsD51C71+Zkt/RIirPHeg/1zs5ZzsaNp3xBG//36vZ3f0y56X8MYYG5Y0jtZdReSyw89yVRfD7JbzYPs7GrHfFsUUiFyEpadZgunSmhPj9jJBnTQzKjZNj72RYgA9+r/wPL3xJL4OM/vLHm5+lWy7L3MNTR0iZeLsBLsmFhhnOV0EeP4gmeqCG+HEN2GP7w1qDOPa9Rzggr5ElIbNRxQH8n32TomNtmgGOerwBZ50uoNhVDdRh82QBBJ5amoWSCiH2nTmU1T0rEuvjbTxAdiQeB9tvpGqXJpmahxuqb1+p6zg0lGxVmcvqlUHjt5RD0PL/w1H/gvZrVt068VxhKdPCZ4=
+  region: IAD
+  container: caseybecking
+  on:
+    repo: caseyCaseybecking/www_caseybecking_com_hugo
