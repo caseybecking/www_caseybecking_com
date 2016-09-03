@@ -4,7 +4,7 @@ go:
 install:
 - go get github.com/spf13/hugo
 script: hugo -t blackburn
-before_deploy: cd build
+before_deploy: cd public
 deploy:
   provider: cloudfiles
   username: caseybeckingrac
