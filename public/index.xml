@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Casey Becking</title>
+    <link>http://www.caseybecking.com/</link>
+    <description>Recent content on Casey Becking</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 03 Sep 2016 10:03:21 -0700</lastBuildDate>
+    <atom:link href="http://www.caseybecking.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Thought&#39;s on Ansible 2.0</title>
+      <link>http://www.caseybecking.com/post/ansible-2-0/</link>
+      <pubDate>Sat, 03 Sep 2016 10:03:21 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/post/ansible-2-0/</guid>
+      <description>
+
+&lt;p&gt;There аrе mаnу ріtfаllѕ tо rеfасtоrіng ѕоftwаrе, ѕо why dіd we dесіdе to tасklе ѕuсh a mаjоr project? At thе tіmе we ѕtаrtеd thе wоrk оn v2, Ansible wаѕ аррrоxіmаtеlу three уеаrѕ оld аnd had rесеntlу сrоѕѕеd thе 1,000 соntrіbutоr mark. This hugе rаtе in grоwth аlѕо resulted іn a degree оf technical dеbt іn thе соdе, which wаѕ bеgіnnіng tо ѕhоw аѕ wе continued tо аdd fеаturеѕ.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, wе decided it wаѕ worth it tо tаkе a step bасk аnd rеwоrk some аѕресtѕ оf thе соdеbаѕе which had bееn рrоnе to hаvіng fеаturеѕ bоltеd оn wіthоut a сlеаr-сut аrсhіtесturаl vision. Wе also rеwrоtе frоm ѕсrаtсh muсh оf the соdе which was rеѕроnѕіblе fоr раrѕіng playbook and оthеr YAML fіlеѕ tо mаkе аddіng lаnguаgе features easier, whіlе providing mоrе information аbоut errors bеуоnd parsing problems. Fіnаllу, wе ѕрlіt uр аnd rеоrgаnіzеd соdе tо make things еаѕіеr tо fіnd and tо rеduсе the “utils” соdе, which hаd bесоmе a collector fоr bіtѕ and ріесеѕ whісh dіdn’t hаvе аnу оthеr clear-cut home.&lt;/p&gt;
+
+&lt;p&gt;During this entire process, one оf thе fundamental goals wаѕ tо mаіntаіn bасkwаrdѕ compatibility wіth existing рlауbооkѕ. In tеrmѕ of раrѕіng аnd running рlауbооkѕ, wе bеlіеvе we have hіt that goal. However, thеrе аrе ѕоmе іnсоmраtіbіlіtіеѕ rеlаtеd tо сеrtаіn features whісh uѕеrѕ nееd to bе aware of аnd whісh wе wіll discuss bеlоw.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-s-nеw&#34;&gt;What’s Nеw&lt;/h2&gt;
+
+&lt;p&gt;Anѕіblе 2.0 is quite a bіt mоrе than a lаrgе refactoring effort. The cleaner architecture allowed uѕ tо add ѕеvеrаl nеw fеаturеѕ wе hаd been considering fоr a whіlе, plus оnе which bесаmе роѕѕіblе dіrесtlу bесаuѕе оf thе refactoring.&lt;/p&gt;
+
+&lt;h3 id=&#34;tаѕk-blосkѕ&#34;&gt;Tаѕk Blосkѕ&lt;/h3&gt;
+
+&lt;p&gt;Blосkѕ іntrоduсе the соnсерt оf еxсерtіоn handling tо рlауbооkѕ, аnd wеrе mоdеlеd аftеr the trу/еxсерt/fіnаllу structure оf Pуthоn (аnd many other lаnguаgеѕ). Thіѕ еаѕеѕ dеvеlорmеnt of playbooks аnd tаѕkѕ, whеrе tаѕk fаіlurеѕ саn bе саught and dealt wіth in a ѕіnglе playbook muсh mоrе ѕіmрlу thаn before.&lt;/p&gt;
+
+&lt;p&gt;Blосkѕ аlѕо allow users to group rеlаtеd tasks tоgеthеr uѕіng tags аnd conditionals, аѕ well аѕ mаnу оthеr tаѕk attributes (bесоmе settings, delegation, etc.).&lt;/p&gt;
+
+&lt;h3 id=&#34;nеw-modules&#34;&gt;Nеw Modules&lt;/h3&gt;
+
+&lt;p&gt;Anѕіblе 2.0 also continues our lоng “batteries іnсludеd” trаdіtіоn by including оvеr 200 new mоdulеѕ. Some оf the hіghlіghtѕ include:&lt;/p&gt;
+
+&lt;p&gt;A соmрlеtеlу new ѕеt оf modules fоr mаnаgіng OреnStасk, thе lеаdіng open source сlоud соmрutіng frаmеwоrk, dеvеlореd in соnсеrt wіth the OреnStасk community&lt;/p&gt;
+
+&lt;p&gt;30 new mоdulеѕ for improving and еxраndіng thе ѕuрроrt fоr Amаzоn Web Services&lt;/p&gt;
+
+&lt;p&gt;Grеаtlу expanded ѕuрроrt for configuring аnd mаnаgіng VMware еnvіrоnmеntѕ&lt;/p&gt;
+
+&lt;p&gt;Exраndеd support fоr mаnаgіng Microsoft Wіndоwѕ еnvіrоnmеntѕ&lt;/p&gt;
+
+&lt;p&gt;Substantial іmрrоvеmеntѕ to the Dосkеr module аnd new Dосkеr connection рlugіn&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://www.caseybecking.com/contact/</link>
+      <pubDate>Tue, 30 Aug 2016 20:07:33 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/contact/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;E-mail: &lt;a href=&#34;mailto:casey@caseybecking.com&#34;&gt;casey@caseybecking.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Twitter:&lt;a href=&#34;http://www.twitter.com/caseybecking&#34;&gt;@caseybecking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn: &lt;a href=&#34;http://www.linkedin.com/in/caseybecking/&#34;&gt;http://www.linkedin.com/in/caseybecking/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;IRC: caseybecking on irc.freenode.net&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>You’ve been hacked!  What to do to save your business.</title>
+      <link>http://www.caseybecking.com/post/youve-been-hacked/</link>
+      <pubDate>Tue, 30 Aug 2016 18:46:57 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/post/youve-been-hacked/</guid>
+      <description>&lt;p&gt;There’s no denying that E-commerce has grown at an enormous rate in the last decade.  For many companies, eCommerce has quickly become the fastest growing channel; if not the largest channel of sales.    Yet sadly, with growth, come those who’d also like to profit from the hundreds of thousands of unprotected sites, ripe with personal data and payment details.   Successful ecommerce platforms, such as Magento with 200,000+ installs, makes for a ripe target for the savvy hacker.   Daily attempts to intrude payment processes, gain access to data bases, etc. allows them to resell personal data and/or take a cut of the transaction, which can certainly provide a luxurious living for hackers.
+These malicious elements try to penetrate e-commerce sites to get to merchant accounts.  More often than not, it’s a door or window that’s left open; where a company has failed to install a security update, used soft usernames, or simply bad programming.   Once successful, the hacker downloads your customer’s personal information. (Username, Address, Payment details, etc).   eCommerce hackers are mostly after CC data, user data, and access to payment gateway details so they can shave pennies/dollars off of orders without the company knowing.   In 80% of the cases we’ve seen, these compromised sites aren’t aware of the breach for over a year.&lt;/p&gt;
+
+&lt;p&gt;In many cases, there are signs that your e-commerce site has been breached.
+They are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If your payment gateway uses Address Verification System (AVS) and Card Security Codes, where the transaction does not contain any AVS or CVV2/CVC2 requests.&lt;/li&gt;
+&lt;li&gt;Site speed and page load performance during checkout. (common when your checkout is now being asked to make an add’l call, per the hacker’s design.)&lt;/li&gt;
+&lt;li&gt;If the transaction does not include any Customer Identification Information.&lt;/li&gt;
+&lt;li&gt;If there are several transactions within a really short period on your magneto platform or any other ecommerce platform you operate on.&lt;/li&gt;
+&lt;li&gt;Repeat User ID access to the database at odd hours.  (often it’s a valid username &amp;amp; password)&lt;/li&gt;
+&lt;li&gt;Offset the balances when reconciling transactions at the end of the month.&lt;/li&gt;
+&lt;li&gt;Suspicious multiple transactions from the same IP (Internet Protocol) address&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’ve have experienced any of these signs, simply take these five steps to assist in the recovery of your website.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Take your website offline
+You should tentatively shut the site down while it is being assessed and fixed.  Stop the bleeding!  For example, adding a text file named “maintenance.flag” to the web root of a Magento-based site will put the site into maintenance mode and display a 503 service unavailable message to site visitors.
+(We strongly recommend customizing the 503 message, offering customers a phone number to call if they have questions about an order or even posting a discount code for free shipping when the site comes back up.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;2 . Change all passwords and control access going forward
+Despite warnings, soft passwords are still commonplace and result in site hacks.   Take the time to review all user accounts, access levels, permissions, etc. and close off any potential vulnerabilities.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Scan your local computers for viruses and malware
+You will need to scan your entire environment and touch points to 3rd party solutions with an anti-virus software to ensure the are not infected with malware, Trojan, spyware, etc. Be sure your anti-virus software is up-to-date before using it to scan your computer.
+If you’re running Magento code, you’re in luck, you can conduct a free scan of your code base at &lt;a href=&#34;https://www.sekursite.com/site-scan/&#34;&gt;https://www.sekursite.com/site-scan/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Clean up the site
+With the help of a security minded developer, systems integrator, or consultancy, you might be able to discover the malicious code affecting your site.   Delete all code found and refresh with a clean installation from a backup and manually check all plugin folders.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Notify your ecommerce software provider.
+Yes, getting hacked can be embarrassing, painful, and emotional.  Yet, now is your chance to spread the word and help others.   If you remain silent, software vendors will go on believing that their code bases have “never been hacked” and other industry peers using that code base will certainly fall victim to the same scan.   Once successful many hackers will simply ‘rinse &amp;amp; repeat’, deploying their code to other sites on the same platform by exploiting the same holes found on your site.   Contact your software provider pronto!&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you feel your site has been compromised or you’d like to test your site’s security, don’t hesitate to take a free scan today. Click &lt;a href=&#34;https://www.sekursite.com/site-scan/&#34;&gt;here&lt;/a&gt; Let them find the holes in your site before someone else does.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://www.caseybecking.com/about/</link>
+      <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/about/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.caseybecking.com/about&#34;&gt;Casey Becking&lt;/a&gt; is a driven, passionate and experience professional within the Ecommerce/ IT systems branch.&lt;/p&gt;
+
+&lt;p&gt;Currently working in the critical application support department for &lt;a href=&#34;https://www.rackspace.com&#34;&gt;Rackspace&lt;/a&gt; and perviously managed &lt;a href=&#34;https://www.volcom.com&#34;&gt;Volcom&lt;/a&gt;, &lt;a href=&#34;https://us.tretorn.com/&#34;&gt;Tretorn&lt;/a&gt;, &lt;a href=&#34;https://www.outerknown.com&#34;&gt;Outerknown&lt;/a&gt;, and &lt;a href=&#34;https://www.electriccalifornia.com&#34;&gt;Electric Visual&lt;/a&gt; on &lt;a href=&#34;https://www.magento.com&#34;&gt;Magento&lt;/a&gt;, on behalf of &lt;a href=&#34;https://www.kering.com&#34;&gt;Kering&lt;/a&gt; Shared Services. Stand out system architect/Technical Liaison able to speak both business and technical elements with clients&lt;/p&gt;
+
+&lt;p&gt;Particularly focusing on enterprise-level development and infrastructure architecture, Casey strives to help his customers reach the full potential of their enterprises by cutting useless extra costs and maximizing their networks and systems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>American Flag</title>
+      <link>http://www.caseybecking.com/post/2012-12-15-american-flag/</link>
+      <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/post/2012-12-15-american-flag/</guid>
+      <description>&lt;p&gt;So I was asked as a part of an interview to &amp;lsquo;Make an American flag with Html/CSS&amp;rsquo;. First thing that poped into my head that this is an amazing quiz. Next thing is damn I have to do this on a white board with a dry-erase marker. So heres what I came up with. &lt;a href=&#34;http://jsfiddle.net/caseybecking/MQSg7/&#34;&gt;JSFiddle&lt;/a&gt;. Let me know what you think. &lt;a href=&#34;http=//twitter.com/caseybecking&#34;&gt;@Caseybecking&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Biggest Data Breaches of 2015</title>
+      <link>http://www.caseybecking.com/post/2016-08-30-biggest-data-breaches-of-2015/</link>
+      <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/post/2016-08-30-biggest-data-breaches-of-2015/</guid>
+      <description>&lt;p&gt;2014 was certainly a big year for data breaches; impacting the likes of Adobe, Apple, Evernote, eBay, and Facebook….to name a few of the headliners.    As 2015 came to a close, we saw even more breaches, hitting the likes of industries like health-care, financial, education, federal government, and eCommerce.    While the threat of cyber security increases, the good news is that we’re seeing more and more companies getting educated, taking action, and making increased investments in both security technologies and people (CSO), for which to manage threats.
+Let’s take a look at the top data breaches of 2015:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ashley Madison- While not the largest breach on the list this year, Ashley Madison certainly got a lot of press, bringing up uncomfortable discussions w/in many relationships as those cheaters were exposed publicly.  Unfortunately the outing had many negative consequences from divorce, separation, and even death as a few Ashley Madison customers took their lives over the shame and emotional distress.   In the end, over 37 million customer records were exposed.  Making matters worse, other less scrupulous types then used the public personal data to then blackmail users for bitcoin payments.  In short, things got way ugly and fast.    The hacker group, calling themselves The Impact Team succeeded in their goal of decimating Ashley Madison’s business model as the company has struggled to regain customer trust, despite the companies position of “all is well”.&lt;/li&gt;
+&lt;li&gt;BlueCross BlueShield – In two different hacks targeting the heath care provider in 2015, over 12 million subscribers, as well as some individuals who do business with the company, found their personal information had been stolen.  The breach compromised subscriber data, which includes names, birth dates, Social Security numbers (11.2 Million SSNs), bank account information, addresses and other information.   One of the breaches (CareFirst/BlueCross) was discovered as part of a 3rd party security review that found hackers had gained access to a database that members use to get access to the company&amp;rsquo;s website and services.&lt;/li&gt;
+&lt;li&gt;Multi-Bank Cyber Heist- In February, over 100+ banks around the world discovered they’d been breached and over $1Billion in funds had been stolen.  (Yes, $1 Billion).  Kaspersky Lab, a Moscow based security firm, discovered that the banks’ networks had been breached via common phishing tactics, allowing hackers to gain access to employee account credentials and key systems. The cybercriminal ring, calling themselves  ‘Carbanak’, then used those credentials to make fraudulent transfers and hijacked ATM machines as they funneled more than $1 billion into their own offshore accounts.  While initial attacks were first detected as early as December 2013, the activity continued to ramp up until ultimately being shut down in April of 2015.&lt;/li&gt;
+&lt;li&gt;US Government- Office of Personnel Management- Easily one of the largest and most brazen cyber attacks in history, a whopping 25.7 Million federal workers found their personal information had been stolen.  What was initially reported as a breach affecting 4.2 million individuals, later spiraled into another separate attack affecting 21.5 million records.   While the perpetrators and their methods have yet to be divulged to the public, we do know that they first accessed the US government databases as early as March 2014.    Therefore, for over a year these hackers (reportedly traced back to China) walked away with personally identifiable information such as Social Security numbers, as well as names, dates and places of birth, and addresses.  The hack went deeper than initially believed and likely involved theft of detailed security-clearance-related background information as well.  The breach resulted in the resignation of the Director of the OPM, in addition to a $23Million online and mail campaign to help those affected ensure their compromised data wasn’t already being used.   So yes, tax payers just paid for a campaign that’s likely to have zero effect.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The above hacks and data breaches were targeted with different intentions in mind.  Some were breached with the goal of accessing credit card information and some were hacked just for the sake of pride or revenge, as in the case of Ashley Madison.   Regardless of intent, one thing they all have in common is that hackers were almost always in their systems, unchecked, for over 12+ months on average.    Without an increased eye on security, hackers have plenty of time to kick back and work some magic with your customer’s personal data.
+If you feel your site has been compromised or you’d like to test your site’s security, don’t hesitate to take a free scan today. Click &lt;a href=&#34;https://www.sekursite.com/site-scan/&#34;&gt;here&lt;/a&gt;
+Let us find the holes in your site before someone else does.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Galaxy S3</title>
+      <link>http://www.caseybecking.com/post/2012-12-25-galaxy-s3/</link>
+      <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/post/2012-12-25-galaxy-s3/</guid>
+      <description>&lt;p&gt;So I got my Galaxy S3 and returned my iPhone 5. I&amp;rsquo;ve had all the iPhones from OG -&amp;gt; 3G -&amp;gt; 4 -&amp;gt; 5. I loved them up until I got the iPhone 5. It didn&amp;rsquo;t change enough for me, it was kind of standard and not exciting. It was fast and the camera was nice but other than that it didn&amp;rsquo;t blow me away. So I went and got the Galaxy S3 and love it, ended up liking it more than I really thought I would. My wife started messing with it and got her self one as well. Few issues I am having with the transition is the slow typing of the keyboard and all I use is the voice feature for the keyboard. Other than that I love the new phone.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>I digress</title>
+      <link>http://www.caseybecking.com/post/2012-12-15-i-digress/</link>
+      <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/post/2012-12-15-i-digress/</guid>
+      <description>&lt;p&gt;So I wanted to take a second to talk about something other than code, development or anything geeky. With the shootings going on in multiple places now (Connecticut, Washington and California), I wanted to just say a few of my thoughts about it. Life is very short. I&amp;rsquo;m 28 years old and I already know this. The only reason I know this is because I now have my own little girl growing up way to fast (almost 2). We take every day for granted, we don&amp;rsquo;t do what we want to do but what society thinks we should be doing. Take an extra second to be nice, I never do this so I&amp;rsquo;m a hypocrite but thats ok, I&amp;rsquo;m going to be better about it. Make sure you let the people around you know that you appreciate them, tell them you love them more than you would normally. To be honest I don&amp;rsquo;t think I let people know often enough how much they mean to me. -Rant Done-&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Round 37</title>
+      <link>http://www.caseybecking.com/post/2012-12-13-round-37/</link>
+      <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/post/2012-12-13-round-37/</guid>
+      <description>&lt;p&gt;I’m gonna give this another try at staying on top of it. I’m going to be posting often and see how long I can keep it going. Sorry for the forever long delay. I’m also not going to be using this site to display my portfolio. If you care to see all the junk I’ve worked on goto my &lt;a href=&#34;http://github.com/caseybecking&#34;&gt;GitHub&lt;/a&gt; page and check out some stuff there. Also i have removed all my old posts and am going to start fresh!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thoughts on Jekyll</title>
+      <link>http://www.caseybecking.com/post/2012-12-31-thoughts-on-jekyll/</link>
+      <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/post/2012-12-31-thoughts-on-jekyll/</guid>
+      <description>&lt;p&gt;So I&amp;rsquo;ve been using Jekyll for a few months now with this blog and other little platforms here and there. I have to say I&amp;rsquo;m amazingly impressed on how easy it is to write a blog post and get it posted and up on a server on the web. Back in the day of wordpress days i used to have to log into WordPress go author the post, right all of the HTML markup, preview the post and then if everything worked out cleanly I was able to post it to my site. With Jekyll I am able to write a post locally on my machine in markdown, view it locally before even pushing it up to a server and then once I&amp;rsquo;m all done all I have to do is committed to github and it posts to my blog. I love how simple it has become.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Where I want to be</title>
+      <link>http://www.caseybecking.com/post/2013-01-21-where-i-want-to-be/</link>
+      <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/post/2013-01-21-where-i-want-to-be/</guid>
+      <description>&lt;p&gt;So a few days ago I started to think about where I want to be with my career. I know I like writing code. I don&amp;rsquo;t know much else (kinda sad). I want to work with a company where I get to write cool code and do something positive at the same time. Be able to give back to others who may not have all the chances I have been given. I want to do good things with the code I write. I don&amp;rsquo;t feel I should charge people to write the code that is freely available for anyone else out there to write, just cause I know how to doesn&amp;rsquo;t make me feel like I should charge to do it. I like giving away the code I write, I like having other people critique my code, I like learning more about what I do and being able to share it with other people. So I&amp;rsquo;ve become a mozilla rep and am going to start to share my knowledge with other people and help them grow in this odd work of the internet. Please reach out to me if you have any questions or would like to get together to talk about future projects or fun stuff you/I have been working on. Thanks for reading&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why I contribute to Mozilla</title>
+      <link>http://www.caseybecking.com/post/2012-12-13-why-i-contribute-to-mozilla/</link>
+      <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/post/2012-12-13-why-i-contribute-to-mozilla/</guid>
+      <description>&lt;p&gt;By far the most important thing I’ve learned in my career is knowledge. I’m able to expand on the knowledge that I have learned by contributing to the open source community and letting other people critique my code in ways that I had never thought I could do before. At first this might be a little bit scary, having someone look through your code and critique every , . &amp;amp; and function but it’s the best thing that’s ever happened to my code. The team at Mozilla doesn’t put you down for writing code that isn’t perfect. They give you information to lead you in the right direction about how to write the code the best way possible. There doesn’t seem to be arrogance at Mozilla at all. If you’re looking to start with web development bugs filed at Mozilla check out – &lt;http=//www.joshmatthews.net/bugsahoy/&gt; . I was once again lucky enough to be able to contribute to this project and it’s a great place to start working with the open-source community.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>But I run Magento.  I’m small.  Why would I get hacked?</title>
+      <link>http://www.caseybecking.com/post/but-i-run-magento/</link>
+      <pubDate>Tue, 30 Aug 2016 17:39:47 -0700</pubDate>
+      
+      <guid>http://www.caseybecking.com/post/but-i-run-magento/</guid>
+      <description>&lt;p&gt;After working with many small and mid-sized retailers in 2015, there is one thing they all have in common—the assumption that hackers won’t bother with them.   Actually it’s the reverse - criminals have figured out small companies are easier to penetrate, and go after them more frequently.  Why go for one big hack, of say eBay or Facebook,  when you can hack 5,000+ sites which NEVER take notice?&lt;/p&gt;
+
+&lt;p&gt;In spite of high-profile hacks such as against Apple, Cisco, or even the US Government, many online retailers still do not believe that they are at risk or have been a victim of undetected hacks by criminal groups.&lt;/p&gt;
+
+&lt;p&gt;In the &lt;a href=&#34;https://www2.trustwave.com/rs/815-RFM-693/images/2015_TrustwaveGlobalSecurityReport.pdf&#34;&gt;2015 Trustwave Global Security Report&lt;/a&gt;, retail was the top industry compromised, making up 41% of the attacks investigated. And 65% of those attacks were against e-commerce sites, where hackers target servers and databases that host card data.&lt;/p&gt;
+
+&lt;p&gt;Let’s all put our &lt;em&gt;criminal hat&lt;/em&gt; on for a second and think about things.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;PII (personally identifiable  information) is GOLD to a hacker.  It trades easy on the black market (dark web) and it’s value increases with more in-depth profiles such as username/pw, CC details, address, bill to, etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Who has PII data readily available?  Online retailers!&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Cybercriminals are highly skilled technically and are also business people, who know how to make money. A recent CNN article said this: “According to one European intelligence service, there are 20-30 criminal gangs in the former Soviet Union that have hacking skills as good as most nations. There are many other groups with lesser skills. These criminals are nimble and inventive, and there are thriving cybercrime black markets where you can buy the latest hacking tools.”&lt;/p&gt;
+
+&lt;p&gt;A recent Javelin Strategy &amp;amp; Research report found that financial institutions are doing a much better job than retailers when it comes to credit card security. Indeed, there are a number of online marketplaces and forums that solely exist to sell information gained by hackers, for example Rescator.la sells stolen credit and debit card information. In such places, customer databases from online stores are often the most expensive on the black market, because they contain correct, up-to-date and complete customer details, sometimes even with their credit card numbers.&lt;/p&gt;
+
+&lt;p&gt;Completeness is a very important factor for pricing on the black market. One customer record from an online store may generate a penny, while a thousand records can easily generate at least $10, or much more, depending on the records’ quality and completeness. For example spammers prefer to purchase e-mails from Internet retailers, simply because they will get a higher click-through rate, generating more revenue, as they can send targeted spam (by country, age, wealth, area of interests, etc.)&lt;/p&gt;
+
+&lt;p&gt;Hackers are also interested in the valuable information on shoppers’ computers, so e-commerce web sites are often infected with malware (an exploit pack targeting and exploiting vulnerabilities in Adobe products or popular browsers). Such attacks often remain unnoticed as they are conducted overnight or at weekends when security team is away. Experienced hackers can go undetected over a long period. For example, French computer hardware retailer LaCie disclosed in April 2014 that its web site had been breached by a malware attack that went undetected for a year. Following the breach, the retailer recommended that buyers check their credit card statements for any fraudulent charges, and keep an eye on their credit reports in case of identity theft.&lt;/p&gt;
+
+&lt;p&gt;The big-name breaches that hit headlines leave many small and midsized e-business owners believing that they will not be attacked, assuming their customer databases are not big enough. This assumption is wrong because in the majority of cases hackers are not looking for customers and data from a specific web shop, they are just looking for commercially exploitable data. The more, the better. It’s much easier, faster and cheaper to hack 50 small e-boutiques than hacking one big one. Moreover, the outcome in terms of number of stolen customer records will be almost the same, probably even bigger. Imagine how much it costs to compromise Amazon.&lt;/p&gt;
+
+&lt;p&gt;Large e-commerce retailers also have much more administrative, financial and legal resources to organize forensics and post-incident investigation, so many hackers try to avoid them. Instead, they often target small retailers that have no capability to fight back.&lt;/p&gt;
+
+&lt;p&gt;As only a small number of Black Hats have the necessary skills, time and resources to launch attacks against the biggest players in the e-commerce industry, hackers prefer to compromise a dozen small and medium online shops per day and get their money on the “every little bit helps” principle. Hacker groups use robots, hidden behind proxies, to crawl the Web in the 24/7/365 mode. They look for known vulnerabilities, outdated versions of web application software or just brute force default or weak passwords. One would be surprised how much information can be just found in Google. And if you have a crawling farm you can compromise thousands of web sites per hour.&lt;/p&gt;
+
+&lt;p&gt;Against this hacker onslaught, online retailers of all sizes need to employ an arsenal that is as flexible and up to date as the hackers’ tools. Retailers need to ensure that their hosting providers or data centers have stringent security procedures, that content management systems are up to date, third-party code is checked thoroughly before use and web sites are regularly audited for weaknesses through a combination of vulnerability scanning and penetration testing.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
