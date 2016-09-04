@@ -10,5 +10,3 @@ Currently working in the critical application support department for [Rackspace]
 
 Particularly focusing on enterprise-level development and infrastructure architecture, Casey strives to help his customers reach the full potential of their enterprises by cutting useless extra costs and maximizing their networks and systems.
 
-Please let me know if you have any questions!
-
