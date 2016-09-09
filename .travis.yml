@@ -14,4 +14,4 @@ deploy:
   container: caseybecking
   skip_cleanup: true
   on:
-    repo: caseyCaseybecking/www_caseybecking_com_hugo
+    repo: caseyCaseybecking/www_caseybecking_com
