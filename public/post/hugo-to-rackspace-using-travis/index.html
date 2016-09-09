@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="Using Travis CI to auto-deploy your hugo site">
   <meta name="generator" content="Hugo 0.16" />
 
-  <title>Posts &middot; Casey Becking</title>
+  <title>Hugo to Rackspace using Travis &middot; Casey Becking</title>
 
   
   
@@ -36,8 +36,6 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
   
-  
-  <link rel="alternate" type="application/rss+xml" title="Casey Becking" href="http://www.caseybecking.com/post/index.xml" />
   
 
   
@@ -98,10 +96,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="http://www.caseybecking.com/post/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
-    </li>
     
 
     
@@ -210,51 +204,123 @@
 
 
 <div class="header">
-  <h1>Posts</h1>
+  <h1>Hugo to Rackspace using Travis</h1>
+  <h2>Using Travis CI to auto-deploy your hugo site</h2>
 </div>
 <div class="content">
-  
-  <h2>2016</h2>
-  <ul>
-  
-    <li><time>09 Sep 2016, 14:19</time> - <a href="http://www.caseybecking.com/post/hugo-to-rackspace-using-travis/">Hugo to Rackspace using Travis</a></li>
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>09 Sep 2016, 14:19</time>
+  </div>
 
   
-    <li><time>03 Sep 2016, 10:03</time> - <a href="http://www.caseybecking.com/post/ansible-2-0/">Thought&#39;s on Ansible 2.0</a></li>
 
   
-    <li><time>30 Aug 2016, 18:46</time> - <a href="http://www.caseybecking.com/post/youve-been-hacked/">You’ve been hacked!  What to do to save your business.</a></li>
+  
+  
+  
 
   
-    <li><time>30 Aug 2016, 18:29</time> - <a href="http://www.caseybecking.com/post/2012-12-13-why-i-contribute-to-mozilla/">Why I contribute to Mozilla</a></li>
+  
+  
+  
+
+</div>
 
   
-    <li><time>30 Aug 2016, 18:29</time> - <a href="http://www.caseybecking.com/post/2013-01-21-where-i-want-to-be/">Where I want to be</a></li>
+
+<p>After reading Evan Browns post <a href="http://evanbrown.io/post/hugo-on-the-go/">Hugo on the go</a> I was inspired to figure out how to do this exact same thing but as opposed to using AWS I wanted to use <a href="http://www.rackspace.com/cloud/files">Rackspace Cloud FIles</a> and more specfically Rackspace Static Website feature, because Rackspace Cloud Files is an inexpensive way to store and distribute objects, the Cloud Files static website feature coupled with the lightning-fast content delivery network (CDN) is a winning combination in terms of both performance and price.</p>
+
+<p>Creating a static website—a site that does not change for each request—with Cloud Files and the updated Control Panel is as easy as pointing and clicking.</p>
+
+<h4 id="to-set-up-a-static-webiste-using-the-rackspace-control-panel">To set up a static webiste using the Rackspace Control Panel</h4>
+
+<p>In the Control Panel, you begin to set up your static website by creating a container.</p>
+
+<ol>
+<li>Login to the <a href="https://mycloud.rackspace.com">Control Panel</a></li>
+<li>In the Files section of the Control Panel, click <strong>Create Container</strong></li>
+<li>Fill in a name and a region for your static webite.</li>
+<li>For <strong>Type</strong>, select <strong>Static Website</strong>.</li>
+<li>Click <strong>Create Container</strong></li>
+<li>In the Control Panel, click on your static website container, and then click the <strong>Upload Files</strong> button.</li>
+<li>In the File Upload dialog box, click <strong>Choose Files</strong> and navigate to the folder with your content.</li>
+<li>Select your content (you can select multiple files), and then click <strong>Open</strong>.</li>
+<li>In the Control Panel, navigate to your container listing by clicking the <strong>Containers</strong> link.</li>
+<li>Click the cog wheel next to your static website container, and then click <strong>View All Links</strong>.</li>
+</ol>
+
+<p>All the CDN URLs for your container are displayed. For HTML pages and pictures, use the HTTP link for your static website container.</p>
+
+<h4 id="to-set-up-a-automated-deployments-using-travis-ci">To set up a Automated Deployments using Travis CI</h4>
+
+<p>Once again my <em>.travis.yml</em> file was very similar to Evan Browns except im using a few pieces to talk to rackspace&rsquo;s cloud -</p>
+
+<pre><code class="language-bash">language: go                                                                                                                                  
+go:
+- 1.4
+install:
+- go get github.com/spf13/hugo
+script: hugo
+before_deploy: cd public
+deploy:
+  provider: cloudfiles
+  username: RACKSPACE USERNAME
+  api_key:
+    secure: APIKEYFROMRACKSPACE
+  region: REGION
+  container: CONTAINERNAME
+  skip_cleanup: true
+  on:
+    repo: caseyCaseybecking/www_caseybecking_com_hugo
+</code></pre>
+
+<ol>
+<li>Login to the Control Panel and goto <strong>Account Settings</strong></li>
+<li>Under <strong>Login Details</strong> you will see <strong>API KEY</strong> - Copy That</li>
+<li>Install the <a href="https://github.com/travis-ci/travis.rb">Travis CLI</a></li>
+<li>CD into your current hugo working directory</li>
+<li>Execute <code>travis setup cloudfiles</code>
+<em>This will ask you a few questions for setup and create the <em>.travis.yml</em></em></li>
+</ol>
+
+<p>Once this file is created you can push it to your repo (modification may be needed).</p>
+
+<p>Now withing Travis you should be able to view the repo within <em>My Repositories</em> flip the switch so it is enabled and it should try to build.</p>
+
 
   
-    <li><time>30 Aug 2016, 18:29</time> - <a href="http://www.caseybecking.com/post/2012-12-31-thoughts-on-jekyll/">Thoughts on Jekyll</a></li>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="http://www.caseybecking.com/post/ansible-2-0/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="http://www.caseybecking.com/post/ansible-2-0/">Thought&#39;s on Ansible 2.0</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
 
   
-    <li><time>30 Aug 2016, 18:29</time> - <a href="http://www.caseybecking.com/post/2012-12-13-round-37/">Round 37</a></li>
 
-  
-    <li><time>30 Aug 2016, 18:29</time> - <a href="http://www.caseybecking.com/post/2012-12-15-i-digress/">I digress</a></li>
-
-  
-    <li><time>30 Aug 2016, 18:29</time> - <a href="http://www.caseybecking.com/post/2012-12-25-galaxy-s3/">Galaxy S3</a></li>
-
-  
-    <li><time>30 Aug 2016, 18:29</time> - <a href="http://www.caseybecking.com/post/2016-08-30-biggest-data-breaches-of-2015/">Biggest Data Breaches of 2015</a></li>
-
-  
-    <li><time>30 Aug 2016, 18:29</time> - <a href="http://www.caseybecking.com/post/2012-12-15-american-flag/">American Flag</a></li>
-
-  
-    <li><time>30 Aug 2016, 17:39</time> - <a href="http://www.caseybecking.com/post/but-i-run-magento/">But I run Magento.  I’m small.  Why would I get hacked?</a></li>
-
-  
-  </ul>
-  
 </div>
 
 </div>
