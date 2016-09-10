@@ -17,6 +17,7 @@ theme = "blackburn"
   brand = "Casey Becking"
   googleAnalytics = "UA-4281268-1"
   highlightjs = "androidstudio"
+  description = "Learn more about Casey Becking"
   dateFormat = "02 Jan 2006, 15:04"
 
 [menu]
