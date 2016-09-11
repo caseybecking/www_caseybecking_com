@@ -1,0 +1,28 @@
+dailyTechnologies = [
+"ansible",
+"linux",
+"magento",
+
+]
+
+responsibilities = [
+
+]
+
+descriptions = [
+"Experience enterprise-level developer and infrastructure architect",
+"Oversee global code deployment and development",
+"Manage infrastructure and applications used for daily communication and project management",
+"First point of contact for external system integrators ",
+"Built, deploy and manage automated tool set for global site testing",
+"Managing a team of 6-8 people",
+]
+
+positions = [
+"Global Lead of Technology and Development"
+]
+
+hire = ["01/01/2014"]
+term = ["11/01/2014"]
+url =  ["https://www.volcom.com"]
+name = ["Volcom"]

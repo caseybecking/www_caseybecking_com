@@ -1,0 +1,30 @@
+dailyTechnologies = [
+"linux",
+"ATG",
+"php",
+"AWS",
+"EZ-Publish",
+
+]
+
+descriptions = [
+"Design and develop User Interfaces for complex web applications including the design and implementation of web pages templates",
+"EZ-Publish CMS",
+"Converted outdated .NET/static html sites into Wordpress MU CMS sites",
+"Built marketing and eCommerce sites on a LAMP stack using PHP5 and OSX Servers",
+"Maintained and created a large number of web sites using PHP5/MySQL",
+"Kept multiple sites and multiple languages versioned using GIT and SVN",
+"Define the UI design, user interaction for new and existing product features ",
+"Develop early high-level and detailed prototypes to effectively communicate design ideas and user interactions ",
+"Worked with video and web technologies including video capture, encoding, delivery, viewer presentation of video and other digital content",
+]
+
+positions = [
+"Web Developer"
+
+]
+
+hire = ["01/01/2009"]
+term = ["12/01/2011"]
+url =  ["https://www.quiksilver.com"]
+name = ["Quiksilver"]

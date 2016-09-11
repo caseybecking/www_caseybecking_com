@@ -1,0 +1,31 @@
+dailyTechnologies = [
+"ansible",
+"linux",
+"magento",
+"aws",
+"go"
+
+]
+
+responsibilities = [
+
+]
+
+positions = [
+"Senior DevOps Engineer"
+]
+
+descriptions = [
+"Responsible for production support including bug triage, diagnosis, and resolution. ",
+"Release management including version control (Git) and deployments. ",
+"Quality control including code reviews and static diagnostics (Jenkins). ",
+"Infrastructure design & support for IT, internal development initiatives. ",
+"Technical leadership, consultation, and architecture.",
+]
+
+
+hire = ["08/01/2015"]
+term = ["03/01/2016"]
+url =  ["https://www.blueacorn.com"]
+name = ["Blueacorn"]
+location = ["Charleston, SC"]

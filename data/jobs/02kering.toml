@@ -1,0 +1,25 @@
+dailyTechnologies = [
+"ansible",
+"linux",
+"magento",
+"chef",
+
+]
+
+descriptions = [
+"Working with multiple Brands to own and operate their ecommerce systems",
+"Manage third party integrations (WMS, CRM, Analytics, OMS)",
+"Architect and administer the infrastructure",
+"Manage deployments and code control of 4 brands",
+"Lead team of engineers along the full lifecycle of tickets",
+"Set-up and manage ticketing system",
+]
+
+positions = [
+"Director of Technology and Development"
+]
+
+hire = ["11/01/204"]
+term = ["08/01/2015"]
+url =  ["https://www.kering.com"]
+name = ["Kering"]

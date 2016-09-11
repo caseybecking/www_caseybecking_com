@@ -1,0 +1,35 @@
+dailyTechnologies = [
+"chef",
+"linux",
+"demandware",
+"jenkins",
+"php",
+]
+
+responsibilities = [
+
+]
+
+descriptions = [
+"Working within the demandware e-commerce platform to build, stylize and customize the shopping experience.",
+"Hand built a product information management tool to interface with the demand where business manager.",
+"Closely working with the VP of sales and COO to build and modify budgets according to our e-commerce roadmap.",
+"Running a small team (4) people.",
+"Increased revenue month over month for the last four months.",
+"Decrease load times on our site over 30%.",
+"Integrated PayPal checkout experience into the demandware platform.",
+"Integrated social aspects into the product landing pages.",
+"Wrote and customize a pay per click initiative with outside vendors.",
+"Integrated conditional pixel logic within the demandware platform.",
+"Customized exact target e-mail platform to fit our emailing needs.",
+"Created an RMA application within demandware for customer service.",
+]
+
+positions = [
+"Sr. Ecommerce Web Developer"
+]
+
+hire = ["01/01/2012"]
+term = ["01/01/2014"]
+url =  ["https://www.volcom.com"]
+name = ["Volcom"]
