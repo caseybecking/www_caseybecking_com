@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.caseybecking.com/</loc>
-    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.caseybecking.com/post/hugo-to-rackspace-using-travis/</loc>
     <lastmod>2016-09-09T14:19:15-07:00</lastmod>
   </url>
@@ -74,6 +69,47 @@
   <url>
     <loc>http://www.caseybecking.com/post/but-i-run-magento/</loc>
     <lastmod>2016-08-30T17:39:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.caseybecking.com/tags/ansible/</loc>
+    <lastmod>2016-09-03T10:03:21-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.caseybecking.com/tags/breaches/</loc>
+    <lastmod>2016-08-30T18:46:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.caseybecking.com/</loc>
+    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.caseybecking.com/tags/development/</loc>
+    <lastmod>2016-09-03T10:03:21-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.caseybecking.com/tags/magento/</loc>
+    <lastmod>2016-08-30T18:46:57-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.caseybecking.com/post/</loc>
+    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.caseybecking.com/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
