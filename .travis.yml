@@ -1,0 +1,18 @@
+language: go                                                                                                                                  
+go:
+- 1.4
+install:
+- go get github.com/spf13/hugo
+script: hugo
+before_deploy: cd public
+deploy:
+  provider: cloudfiles
+  username: caseybeckingrac
+  api_key:
+    secure: KM5L7xcVxIH+K0GbL0a8+PM7k/j5yF9taKs31TclMB3Y4mIq3JbVr6KAHQFqjNASusMP8KyANFRfDhPJmw3CBai+2X0plecfvk60IaS0hMFQA/F72qZcvERF9TdpDfCcL9udeFX0aqZZm7gd791uO6W129bIAbaw4ZKmgcHSPCyPH8Oa6gZxJ00VomERLI5P3X/dwCAs9ZlJP/BdN6NaJ3+bM6eRsJVLK0MaiAIfwt7+1YFPFZmTAH5BhpX8083vWUlWY/xvlJ138KM41eJOnt8xsjsgQm/cATnLmwEWhPinAmhyVdpz6CFl3agTyQ+9Ilk1FjBnH11pfKK6k9LftvM+mVoJydFzivwqZpfsXkptwYbY39w1BRTYG5jxyBsZNo583tplN0gHEsCNUtg2dxXHiWaSJqhM6QCQfomfl3SkxGLQXGf+rKUSn63RogyHRzWZdzB72TE1yVMpNrtbeztJv01pFnenI6k0PiSevTYqMhsSTO/Th3qaL6Ck+hUTDEPtngO60A5mZO8Gjxw01nwNJE7e5IYNYd18VVJzRDFGC6tF+hAAFKJWQyajVNg1XPpUhYvgTp7ke2hcY5dkALm1wX1wtXwYSQ3c8qgtxnpbpbyPvo3mBlUYL5T9qASGQXuUVc4l/91tPRZUyBMUG74XBRKEBjV+MygOSKtmK58=
+  
+  region: IAD
+  container: caseybecking
+  skip_cleanup: true
+  on:
+    repo: caseybecking/www_caseybecking_com_hugo
