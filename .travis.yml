@@ -4,7 +4,8 @@ install:
 script: hugo
 before_deploy: 
 - cd public
-- gem install mime-types -v 2.6.2
+- rvm 1.9.3 do gem install mime-types -v 2.6.2
+
 deploy:
   provider: cloudfiles
   username: caseybeckingrac
