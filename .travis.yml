@@ -4,8 +4,8 @@ install:
 script: hugo
 before_deploy: 
 - cd public
-- rvm use 2.1.1 do gem install mime-types -v 2.6.2
-
+-rvm install 2.1.1
+- rvm use 2.1.1
 deploy:
   provider: clould_files
   username: caseybeckingrac
