@@ -2,7 +2,9 @@ language: go
 install:
 - go get -v github.com/spf13/hugo
 script: hugo
-before_deploy: cd public
+before_deploy: 
+- cd public
+- gem install mime-types -v 2.6.2
 deploy:
   provider: cloudfiles
   username: caseybeckingrac
