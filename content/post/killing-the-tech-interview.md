@@ -4,7 +4,6 @@ date = "2017-01-01T08:34:15-08:00"
 title = "Killing the Tech Interview"
 topics = []
 tags = []
-draft = true
 
 +++
 
