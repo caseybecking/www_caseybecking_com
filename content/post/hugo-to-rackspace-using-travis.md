@@ -1,9 +1,9 @@
 +++
 date = "2016-09-09T14:19:15-07:00"
 description = "Using Travis CI to auto-deploy your hugo site"
-tags = []
+tags = ["Rackspace","Hugo","Devlopment"]
 title = "Hugo to Rackspace using Travis"
-topics = []
+topics = ["Development"]
 
 +++
 

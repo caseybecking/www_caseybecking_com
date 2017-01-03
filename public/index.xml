@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 08:34:15 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jan 2017 09:38:03 -0800</lastBuildDate>
     <atom:link href="http://www.caseybecking.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Future Stack 2016</title>
+      <link>http://www.caseybecking.com/post/future-stack-2016/</link>
+      <pubDate>Tue, 03 Jan 2017 09:38:03 -0800</pubDate>
+      
+      <guid>http://www.caseybecking.com/post/future-stack-2016/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Why did I goto FutureStack 2016?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.rackspace.com&#34;&gt;Rackspace&lt;/a&gt; prides itself on having the most educated engineers in the industry and being able to send specific engineers to conferences is a large value add for Rackspace as a whole. This is why I was able to attend the new relic future stack 2016 conference in San Francisco. Today I&amp;rsquo;m going to go over a few of the key takeaways from the conference and how they will be able to be used immediately within our clients infrastructure and application.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What did I enjoy the most?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Probably the most exciting thing to come out of future stack this year&amp;rsquo;s new relics application named Infrastructure. Infrastructure allows you to be able to have complete visibility of you&amp;rsquo;re constantly changing architecture. With real-time metrics and a complete correlation of configuration changes you will be able to quickly resolve issues, scale rapidly, and deploy intelligently. We have already been using this with some of our beta clients and are already seeing the benefits of being able to see where configuration changes have been made and visualize the direct correlation to a spike in Page load time.&lt;/p&gt;
+
+&lt;p&gt;Another key feature of new relics infrastructure is the integrations that they have pre-built for Amazon web services. This has allowed us to be able to see a higher level of view of all the Amazon web services that are running on our clients infrastructure. We are now able to write new relic query (NRQL) language queries against this information and expose it in a beautiful dashboard for our clients to be able to see. They also have built-in support for many more integrations.&lt;/p&gt;
+
+&lt;p&gt;With new relic infrastructure you are able to track health metrics and configuration changes in real time. What this allows you to do is be able to alert on key metrics four either infrastructure changes and/or health metrics. We have already been using this for our clients to be alerted when a scaling action happens within Amazon web services. We are now able to no women infrastructure is scaling up or scaling down through a simple alerting feature built into new relic.&lt;/p&gt;
+
+&lt;p&gt;The ability to filter new relics infrastructure based upon specific tags, instance types, display names or regions allows us to dive in a bit deeper into the details of your Amazon Web services infrastructure.  Four instance we will be able to see what inventory has been changed in what region and during what time this is a valuable data we will need to be able to properly triage a slowness in page load times.&lt;/p&gt;
+
+&lt;p&gt;Another new release that came out of the show was the ability to have a dynamic baselining alerts. Having the ability to be able to be platform/infrastructure agnostic and not care whether it&amp;rsquo;s a bare metal system that lives for years or a virtual machine that last for months or even a container that may live for only a few minutes we are now able to take recent data, trends and seasonality and weight all three behaviors, using them in combination to be able to better predict future changes. The benefits of new relic baseline alerts are the ability to be confident in the thresholds that are set based upon history, Minute scale granularity &amp;amp; sophisticated calculations as well as fast alert configurations via the NewRelic portal or API.&lt;/p&gt;
+
+&lt;p&gt;In closing today&amp;rsquo;s infrastructure is very different than what it was a few years ago the old tools of the trade are not sufficient to be able to keep up with the pace at which our technologies are ever-changing. We need tools as well as expertise to stay up-to-date with the new world coming. Servers are no longer living for long life spans and with a new relic infrastructure and new relic dynamic baselining alerts we are able to do this&lt;/p&gt;
+
+&lt;p&gt;Please feel free to reach out Rackspace for more information on &lt;a href=&#34;https://www.rackspace.com/en-us/digital/managed-application-services/critical-applications&#34;&gt;Managed Application Support (MAS)&lt;/a&gt; or NewRelic for &lt;a href=&#34;https://newrelic.com/infrastructure&#34;&gt;NewRelic Infrastructre&lt;/a&gt;. &lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Killing the Tech Interview</title>
@@ -303,44 +331,6 @@ Let us find the holes in your site before someone else does.&lt;/p&gt;
       
       <guid>http://www.caseybecking.com/post/2012-12-13-why-i-contribute-to-mozilla/</guid>
       <description>&lt;p&gt;By far the most important thing I’ve learned in my career is knowledge. I’m able to expand on the knowledge that I have learned by contributing to the open source community and letting other people critique my code in ways that I had never thought I could do before. At first this might be a little bit scary, having someone look through your code and critique every , . &amp;amp; and function but it’s the best thing that’s ever happened to my code. The team at Mozilla doesn’t put you down for writing code that isn’t perfect. They give you information to lead you in the right direction about how to write the code the best way possible. There doesn’t seem to be arrogance at Mozilla at all. If you’re looking to start with web development bugs filed at Mozilla check out – &lt;http=//www.joshmatthews.net/bugsahoy/&gt; . I was once again lucky enough to be able to contribute to this project and it’s a great place to start working with the open-source community.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>But I run Magento.  I’m small.  Why would I get hacked?</title>
-      <link>http://www.caseybecking.com/post/but-i-run-magento/</link>
-      <pubDate>Tue, 30 Aug 2016 17:39:47 -0700</pubDate>
-      
-      <guid>http://www.caseybecking.com/post/but-i-run-magento/</guid>
-      <description>&lt;p&gt;After working with many small and mid-sized retailers in 2015, there is one thing they all have in common—the assumption that hackers won’t bother with them.   Actually it’s the reverse - criminals have figured out small companies are easier to penetrate, and go after them more frequently.  Why go for one big hack, of say eBay or Facebook,  when you can hack 5,000+ sites which NEVER take notice?&lt;/p&gt;
-
-&lt;p&gt;In spite of high-profile hacks such as against Apple, Cisco, or even the US Government, many online retailers still do not believe that they are at risk or have been a victim of undetected hacks by criminal groups.&lt;/p&gt;
-
-&lt;p&gt;In the &lt;a href=&#34;https://www2.trustwave.com/rs/815-RFM-693/images/2015_TrustwaveGlobalSecurityReport.pdf&#34;&gt;2015 Trustwave Global Security Report&lt;/a&gt;, retail was the top industry compromised, making up 41% of the attacks investigated. And 65% of those attacks were against e-commerce sites, where hackers target servers and databases that host card data.&lt;/p&gt;
-
-&lt;p&gt;Let’s all put our &lt;em&gt;criminal hat&lt;/em&gt; on for a second and think about things.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;PII (personally identifiable  information) is GOLD to a hacker.  It trades easy on the black market (dark web) and it’s value increases with more in-depth profiles such as username/pw, CC details, address, bill to, etc.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Who has PII data readily available?  Online retailers!&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Cybercriminals are highly skilled technically and are also business people, who know how to make money. A recent CNN article said this: “According to one European intelligence service, there are 20-30 criminal gangs in the former Soviet Union that have hacking skills as good as most nations. There are many other groups with lesser skills. These criminals are nimble and inventive, and there are thriving cybercrime black markets where you can buy the latest hacking tools.”&lt;/p&gt;
-
-&lt;p&gt;A recent Javelin Strategy &amp;amp; Research report found that financial institutions are doing a much better job than retailers when it comes to credit card security. Indeed, there are a number of online marketplaces and forums that solely exist to sell information gained by hackers, for example Rescator.la sells stolen credit and debit card information. In such places, customer databases from online stores are often the most expensive on the black market, because they contain correct, up-to-date and complete customer details, sometimes even with their credit card numbers.&lt;/p&gt;
-
-&lt;p&gt;Completeness is a very important factor for pricing on the black market. One customer record from an online store may generate a penny, while a thousand records can easily generate at least $10, or much more, depending on the records’ quality and completeness. For example spammers prefer to purchase e-mails from Internet retailers, simply because they will get a higher click-through rate, generating more revenue, as they can send targeted spam (by country, age, wealth, area of interests, etc.)&lt;/p&gt;
-
-&lt;p&gt;Hackers are also interested in the valuable information on shoppers’ computers, so e-commerce web sites are often infected with malware (an exploit pack targeting and exploiting vulnerabilities in Adobe products or popular browsers). Such attacks often remain unnoticed as they are conducted overnight or at weekends when security team is away. Experienced hackers can go undetected over a long period. For example, French computer hardware retailer LaCie disclosed in April 2014 that its web site had been breached by a malware attack that went undetected for a year. Following the breach, the retailer recommended that buyers check their credit card statements for any fraudulent charges, and keep an eye on their credit reports in case of identity theft.&lt;/p&gt;
-
-&lt;p&gt;The big-name breaches that hit headlines leave many small and midsized e-business owners believing that they will not be attacked, assuming their customer databases are not big enough. This assumption is wrong because in the majority of cases hackers are not looking for customers and data from a specific web shop, they are just looking for commercially exploitable data. The more, the better. It’s much easier, faster and cheaper to hack 50 small e-boutiques than hacking one big one. Moreover, the outcome in terms of number of stolen customer records will be almost the same, probably even bigger. Imagine how much it costs to compromise Amazon.&lt;/p&gt;
-
-&lt;p&gt;Large e-commerce retailers also have much more administrative, financial and legal resources to organize forensics and post-incident investigation, so many hackers try to avoid them. Instead, they often target small retailers that have no capability to fight back.&lt;/p&gt;
-
-&lt;p&gt;As only a small number of Black Hats have the necessary skills, time and resources to launch attacks against the biggest players in the e-commerce industry, hackers prefer to compromise a dozen small and medium online shops per day and get their money on the “every little bit helps” principle. Hacker groups use robots, hidden behind proxies, to crawl the Web in the 24/7/365 mode. They look for known vulnerabilities, outdated versions of web application software or just brute force default or weak passwords. One would be surprised how much information can be just found in Google. And if you have a crawling farm you can compromise thousands of web sites per hour.&lt;/p&gt;
-
-&lt;p&gt;Against this hacker onslaught, online retailers of all sizes need to employ an arsenal that is as flexible and up to date as the hackers’ tools. Retailers need to ensure that their hosting providers or data centers have stringent security procedures, that content management systems are up to date, third-party code is checked thoroughly before use and web sites are regularly audited for weaknesses through a combination of vulnerability scanning and penetration testing.&lt;/p&gt;
 </description>
     </item>
     

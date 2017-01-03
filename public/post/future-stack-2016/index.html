@@ -4,17 +4,17 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-<meta property="og:description" content="Using Travis CI to auto-deploy your hugo site" />
+<meta property="og:description" content="Why I went to FutureStack 2016 and the main takeaways I have!" />
 <meta name="keywords" content="casey caseybecking becking CASEY BECKING Casey Becking" />
 <meta name="robots" content="INDEX,FOLLOW" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Using Travis CI to auto-deploy your hugo site">
+  <meta name="description" content="Why I went to FutureStack 2016 and the main takeaways I have!">
   <meta name="generator" content="Hugo 0.18.1" />
 
-  <title>Hugo to Rackspace using Travis &middot; Casey Becking</title>
+  <title>Future Stack 2016 &middot; Casey Becking</title>
 
   
   
@@ -226,8 +226,8 @@
 
 
 <div class="header">
-  <h1>Hugo to Rackspace using Travis</h1>
-  <h2>Using Travis CI to auto-deploy your hugo site</h2>
+  <h1>Future Stack 2016</h1>
+  <h2>Why I went to FutureStack 2016 and the main takeaways I have!</h2>
 </div>
 <div class="content">
 
@@ -235,7 +235,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>09 Sep 2016, 14:19</time>
+    <time>03 Jan 2017, 09:38</time>
   </div>
 
   
@@ -246,7 +246,7 @@
   <div>
     <i class="fa fa-folder fa-fw"></i>
     
-      <a class="post-taxonomy-topic" href="http://www.caseybecking.com/topics/development">Development</a>
+      <a class="post-taxonomy-topic" href="http://www.caseybecking.com/topics/futurestack">FutureStack</a>
     
   </div>
   
@@ -258,11 +258,11 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="http://www.caseybecking.com/tags/rackspace">Rackspace</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="http://www.caseybecking.com/tags/futurestack">FutureStack</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="http://www.caseybecking.com/tags/hugo">Hugo</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="http://www.caseybecking.com/tags/infrastrcutre">Infrastrcutre</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="http://www.caseybecking.com/tags/devlopment">Devlopment</a>
+      <a class="post-taxonomy-tag" href="http://www.caseybecking.com/tags/rackspace">Rackspace</a>
     
   </div>
   
@@ -270,79 +270,38 @@
 
 </div>
 
-  
+  <p><strong>Why did I goto FutureStack 2016?</strong></p>
 
-<p>After reading Evan Browns post <a href="http://evanbrown.io/post/hugo-on-the-go/">Hugo on the go</a> I was inspired to figure out how to do this exact same thing but as opposed to using AWS I wanted to use <a href="http://www.rackspace.com/cloud/files">Rackspace Cloud FIles</a> and more specfically Rackspace Static Website feature, because Rackspace Cloud Files is an inexpensive way to store and distribute objects, the Cloud Files static website feature coupled with the lightning-fast content delivery network (CDN) is a winning combination in terms of both performance and price.</p>
+<p><a href="http://www.rackspace.com">Rackspace</a> prides itself on having the most educated engineers in the industry and being able to send specific engineers to conferences is a large value add for Rackspace as a whole. This is why I was able to attend the new relic future stack 2016 conference in San Francisco. Today I&rsquo;m going to go over a few of the key takeaways from the conference and how they will be able to be used immediately within our clients infrastructure and application.</p>
 
-<p>Creating a static website—a site that does not change for each request—with Cloud Files and the updated Control Panel is as easy as pointing and clicking.</p>
+<p><strong>What did I enjoy the most?</strong></p>
 
-<h4 id="to-set-up-a-static-webiste-using-the-rackspace-control-panel">To set up a static webiste using the Rackspace Control Panel</h4>
+<p>Probably the most exciting thing to come out of future stack this year&rsquo;s new relics application named Infrastructure. Infrastructure allows you to be able to have complete visibility of you&rsquo;re constantly changing architecture. With real-time metrics and a complete correlation of configuration changes you will be able to quickly resolve issues, scale rapidly, and deploy intelligently. We have already been using this with some of our beta clients and are already seeing the benefits of being able to see where configuration changes have been made and visualize the direct correlation to a spike in Page load time.</p>
 
-<p>In the Control Panel, you begin to set up your static website by creating a container.</p>
+<p>Another key feature of new relics infrastructure is the integrations that they have pre-built for Amazon web services. This has allowed us to be able to see a higher level of view of all the Amazon web services that are running on our clients infrastructure. We are now able to write new relic query (NRQL) language queries against this information and expose it in a beautiful dashboard for our clients to be able to see. They also have built-in support for many more integrations.</p>
 
-<ol>
-<li>Login to the <a href="https://mycloud.rackspace.com">Control Panel</a></li>
-<li>In the Files section of the Control Panel, click <strong>Create Container</strong></li>
-<li>Fill in a name and a region for your static webite.</li>
-<li>For <strong>Type</strong>, select <strong>Static Website</strong>.</li>
-<li>Click <strong>Create Container</strong></li>
-<li>In the Control Panel, click on your static website container, and then click the <strong>Upload Files</strong> button.</li>
-<li>In the File Upload dialog box, click <strong>Choose Files</strong> and navigate to the folder with your content.</li>
-<li>Select your content (you can select multiple files), and then click <strong>Open</strong>.</li>
-<li>In the Control Panel, navigate to your container listing by clicking the <strong>Containers</strong> link.</li>
-<li>Click the cog wheel next to your static website container, and then click <strong>View All Links</strong>.</li>
-</ol>
+<p>With new relic infrastructure you are able to track health metrics and configuration changes in real time. What this allows you to do is be able to alert on key metrics four either infrastructure changes and/or health metrics. We have already been using this for our clients to be alerted when a scaling action happens within Amazon web services. We are now able to no women infrastructure is scaling up or scaling down through a simple alerting feature built into new relic.</p>
 
-<p>All the CDN URLs for your container are displayed. For HTML pages and pictures, use the HTTP link for your static website container.</p>
+<p>The ability to filter new relics infrastructure based upon specific tags, instance types, display names or regions allows us to dive in a bit deeper into the details of your Amazon Web services infrastructure.  Four instance we will be able to see what inventory has been changed in what region and during what time this is a valuable data we will need to be able to properly triage a slowness in page load times.</p>
 
-<h4 id="to-set-up-a-automated-deployments-using-travis-ci">To set up a Automated Deployments using Travis CI</h4>
+<p>Another new release that came out of the show was the ability to have a dynamic baselining alerts. Having the ability to be able to be platform/infrastructure agnostic and not care whether it&rsquo;s a bare metal system that lives for years or a virtual machine that last for months or even a container that may live for only a few minutes we are now able to take recent data, trends and seasonality and weight all three behaviors, using them in combination to be able to better predict future changes. The benefits of new relic baseline alerts are the ability to be confident in the thresholds that are set based upon history, Minute scale granularity &amp; sophisticated calculations as well as fast alert configurations via the NewRelic portal or API.</p>
 
-<p>Once again my <em>.travis.yml</em> file was very similar to Evan Browns except im using a few pieces to talk to rackspace&rsquo;s cloud -</p>
+<p>In closing today&rsquo;s infrastructure is very different than what it was a few years ago the old tools of the trade are not sufficient to be able to keep up with the pace at which our technologies are ever-changing. We need tools as well as expertise to stay up-to-date with the new world coming. Servers are no longer living for long life spans and with a new relic infrastructure and new relic dynamic baselining alerts we are able to do this</p>
 
-<pre><code class="language-bash">language: go                                                                                                                                  
-go:
-- 1.4
-install:
-- go get github.com/spf13/hugo
-script: hugo
-before_deploy: cd public
-deploy:
-  provider: cloudfiles
-  username: RACKSPACE USERNAME
-  api_key:
-    secure: APIKEYFROMRACKSPACE
-  region: REGION
-  container: CONTAINERNAME
-  skip_cleanup: true
-  on:
-    repo: caseyCaseybecking/www_caseybecking_com_hugo
-</code></pre>
-
-<ol>
-<li>Login to the Control Panel and goto <strong>Account Settings</strong></li>
-<li>Under <strong>Login Details</strong> you will see <strong>API KEY</strong> - Copy That</li>
-<li>Install the <a href="https://github.com/travis-ci/travis.rb">Travis CLI</a></li>
-<li>CD into your current hugo working directory</li>
-<li>Execute <code>travis setup cloudfiles</code>
-<em>This will ask you a few questions for setup and create the <em>.travis.yml</em></em></li>
-</ol>
-
-<p>Once this file is created you can push it to your repo (modification may be needed).</p>
-
-<p>Now withing Travis you should be able to view the repo within <em>My Repositories</em> flip the switch so it is enabled and it should try to build.</p>
+<p>Please feel free to reach out Rackspace for more information on <a href="https://www.rackspace.com/en-us/digital/managed-application-services/critical-applications">Managed Application Support (MAS)</a> or NewRelic for <a href="https://newrelic.com/infrastructure">NewRelic Infrastructre</a>. </p>
 
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="http://www.caseybecking.com/post/ansible-2-0/"><i class="fa fa-chevron-left"></i></a>
+    <a href="http://www.caseybecking.com/post/killing-the-tech-interview/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="http://www.caseybecking.com/post/ansible-2-0/">Thought&#39;s on Ansible 2.0</a>
+      <a href="http://www.caseybecking.com/post/killing-the-tech-interview/">Killing the Tech Interview</a>
     </nav>
     
   </div>
@@ -351,14 +310,8 @@ deploy:
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="http://www.caseybecking.com/post/killing-the-tech-interview/">Killing the Tech Interview</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="http://www.caseybecking.com/post/killing-the-tech-interview/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>
