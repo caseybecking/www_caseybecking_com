@@ -1,9 +1,9 @@
-baseurl = "http://www.caseybecking.com/"
+baseurl = "http://caseybecking.com/"
 languageCode = "en-us"
 title = "Casey Becking"
 author = "Casey Becking"
 # Shown in the side menu
-copyright = "&copy; 2016. All rights reserved."
+copyright = "&copy; 2017. All rights reserved."
 canonifyurls = true
 paginate = 10
 theme = "blackburn"
@@ -13,7 +13,7 @@ theme = "blackburn"
   topic = "topics"
 
 [params]
-  subtitle = "Senior Engineer"
+  subtitle = "DevOps Engineer"
   brand = "Casey Becking"
   googleAnalytics = "UA-4281268-1"
   highlightjs = "androidstudio"
@@ -66,6 +66,6 @@ theme = "blackburn"
   github = "caseybecking"
 
   stackoverflow = "145928/casey-becking"
-  
+
   # Music
   lastfm = "cbecking"
