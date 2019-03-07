@@ -2,39 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Infrastrcutre on Casey Becking</title>
-    <link>http://www.caseybecking.com/tags/infrastrcutre/index.xml</link>
+    <link>http://caseybecking.com/tags/infrastrcutre/</link>
     <description>Recent content in Infrastrcutre on Casey Becking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <atom:link href="http://www.caseybecking.com/tags/infrastrcutre/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2017. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 03 Jan 2017 09:38:03 -0800</lastBuildDate>
+    
+	<atom:link href="http://caseybecking.com/tags/infrastrcutre/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Future Stack 2016</title>
-      <link>http://www.caseybecking.com/post/future-stack-2016/</link>
+      <link>http://caseybecking.com/post/future-stack-2016/</link>
       <pubDate>Tue, 03 Jan 2017 09:38:03 -0800</pubDate>
       
-      <guid>http://www.caseybecking.com/post/future-stack-2016/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Why did I goto FutureStack 2016?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.rackspace.com&#34;&gt;Rackspace&lt;/a&gt; prides itself on having the most educated engineers in the industry and being able to send specific engineers to conferences is a large value add for Rackspace as a whole. This is why I was able to attend the new relic future stack 2016 conference in San Francisco. Today I&amp;rsquo;m going to go over a few of the key takeaways from the conference and how they will be able to be used immediately within our clients infrastructure and application.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What did I enjoy the most?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Probably the most exciting thing to come out of future stack this year&amp;rsquo;s new relics application named Infrastructure. Infrastructure allows you to be able to have complete visibility of you&amp;rsquo;re constantly changing architecture. With real-time metrics and a complete correlation of configuration changes you will be able to quickly resolve issues, scale rapidly, and deploy intelligently. We have already been using this with some of our beta clients and are already seeing the benefits of being able to see where configuration changes have been made and visualize the direct correlation to a spike in Page load time.&lt;/p&gt;
-
-&lt;p&gt;Another key feature of new relics infrastructure is the integrations that they have pre-built for Amazon web services. This has allowed us to be able to see a higher level of view of all the Amazon web services that are running on our clients infrastructure. We are now able to write new relic query (NRQL) language queries against this information and expose it in a beautiful dashboard for our clients to be able to see. They also have built-in support for many more integrations.&lt;/p&gt;
-
-&lt;p&gt;With new relic infrastructure you are able to track health metrics and configuration changes in real time. What this allows you to do is be able to alert on key metrics four either infrastructure changes and/or health metrics. We have already been using this for our clients to be alerted when a scaling action happens within Amazon web services. We are now able to no women infrastructure is scaling up or scaling down through a simple alerting feature built into new relic.&lt;/p&gt;
-
-&lt;p&gt;The ability to filter new relics infrastructure based upon specific tags, instance types, display names or regions allows us to dive in a bit deeper into the details of your Amazon Web services infrastructure.  Four instance we will be able to see what inventory has been changed in what region and during what time this is a valuable data we will need to be able to properly triage a slowness in page load times.&lt;/p&gt;
-
-&lt;p&gt;Another new release that came out of the show was the ability to have a dynamic baselining alerts. Having the ability to be able to be platform/infrastructure agnostic and not care whether it&amp;rsquo;s a bare metal system that lives for years or a virtual machine that last for months or even a container that may live for only a few minutes we are now able to take recent data, trends and seasonality and weight all three behaviors, using them in combination to be able to better predict future changes. The benefits of new relic baseline alerts are the ability to be confident in the thresholds that are set based upon history, Minute scale granularity &amp;amp; sophisticated calculations as well as fast alert configurations via the NewRelic portal or API.&lt;/p&gt;
-
-&lt;p&gt;In closing today&amp;rsquo;s infrastructure is very different than what it was a few years ago the old tools of the trade are not sufficient to be able to keep up with the pace at which our technologies are ever-changing. We need tools as well as expertise to stay up-to-date with the new world coming. Servers are no longer living for long life spans and with a new relic infrastructure and new relic dynamic baselining alerts we are able to do this&lt;/p&gt;
-
-&lt;p&gt;Please feel free to reach out Rackspace for more information on &lt;a href=&#34;https://www.rackspace.com/en-us/digital/managed-application-services/critical-applications&#34;&gt;Managed Application Support (MAS)&lt;/a&gt; or NewRelic for &lt;a href=&#34;https://newrelic.com/infrastructure&#34;&gt;NewRelic Infrastructre&lt;/a&gt;. &lt;/p&gt;
-</description>
+      <guid>http://caseybecking.com/post/future-stack-2016/</guid>
+      <description>Why did I goto FutureStack 2016?
+Rackspace prides itself on having the most educated engineers in the industry and being able to send specific engineers to conferences is a large value add for Rackspace as a whole. This is why I was able to attend the new relic future stack 2016 conference in San Francisco. Today I&amp;rsquo;m going to go over a few of the key takeaways from the conference and how they will be able to be used immediately within our clients infrastructure and application.</description>
     </item>
     
   </channel>

@@ -2,80 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devlopment on Casey Becking</title>
-    <link>http://www.caseybecking.com/tags/devlopment/index.xml</link>
+    <link>http://caseybecking.com/tags/devlopment/</link>
     <description>Recent content in Devlopment on Casey Becking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <atom:link href="http://www.caseybecking.com/tags/devlopment/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2017. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 09 Sep 2016 14:19:15 -0700</lastBuildDate>
+    
+	<atom:link href="http://caseybecking.com/tags/devlopment/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Hugo to Rackspace using Travis</title>
-      <link>http://www.caseybecking.com/post/hugo-to-rackspace-using-travis/</link>
+      <link>http://caseybecking.com/post/hugo-to-rackspace-using-travis/</link>
       <pubDate>Fri, 09 Sep 2016 14:19:15 -0700</pubDate>
       
-      <guid>http://www.caseybecking.com/post/hugo-to-rackspace-using-travis/</guid>
-      <description>
-
-&lt;p&gt;After reading Evan Browns post &lt;a href=&#34;http://evanbrown.io/post/hugo-on-the-go/&#34;&gt;Hugo on the go&lt;/a&gt; I was inspired to figure out how to do this exact same thing but as opposed to using AWS I wanted to use &lt;a href=&#34;http://www.rackspace.com/cloud/files&#34;&gt;Rackspace Cloud FIles&lt;/a&gt; and more specfically Rackspace Static Website feature, because Rackspace Cloud Files is an inexpensive way to store and distribute objects, the Cloud Files static website feature coupled with the lightning-fast content delivery network (CDN) is a winning combination in terms of both performance and price.&lt;/p&gt;
-
-&lt;p&gt;Creating a static website—a site that does not change for each request—with Cloud Files and the updated Control Panel is as easy as pointing and clicking.&lt;/p&gt;
-
-&lt;h4 id=&#34;to-set-up-a-static-webiste-using-the-rackspace-control-panel&#34;&gt;To set up a static webiste using the Rackspace Control Panel&lt;/h4&gt;
-
-&lt;p&gt;In the Control Panel, you begin to set up your static website by creating a container.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Login to the &lt;a href=&#34;https://mycloud.rackspace.com&#34;&gt;Control Panel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;In the Files section of the Control Panel, click &lt;strong&gt;Create Container&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Fill in a name and a region for your static webite.&lt;/li&gt;
-&lt;li&gt;For &lt;strong&gt;Type&lt;/strong&gt;, select &lt;strong&gt;Static Website&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Click &lt;strong&gt;Create Container&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;In the Control Panel, click on your static website container, and then click the &lt;strong&gt;Upload Files&lt;/strong&gt; button.&lt;/li&gt;
-&lt;li&gt;In the File Upload dialog box, click &lt;strong&gt;Choose Files&lt;/strong&gt; and navigate to the folder with your content.&lt;/li&gt;
-&lt;li&gt;Select your content (you can select multiple files), and then click &lt;strong&gt;Open&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;In the Control Panel, navigate to your container listing by clicking the &lt;strong&gt;Containers&lt;/strong&gt; link.&lt;/li&gt;
-&lt;li&gt;Click the cog wheel next to your static website container, and then click &lt;strong&gt;View All Links&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;All the CDN URLs for your container are displayed. For HTML pages and pictures, use the HTTP link for your static website container.&lt;/p&gt;
-
-&lt;h4 id=&#34;to-set-up-a-automated-deployments-using-travis-ci&#34;&gt;To set up a Automated Deployments using Travis CI&lt;/h4&gt;
-
-&lt;p&gt;Once again my &lt;em&gt;.travis.yml&lt;/em&gt; file was very similar to Evan Browns except im using a few pieces to talk to rackspace&amp;rsquo;s cloud -&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;language: go                                                                                                                                  
-go:
-- 1.4
-install:
-- go get github.com/spf13/hugo
-script: hugo
-before_deploy: cd public
-deploy:
-  provider: cloudfiles
-  username: RACKSPACE USERNAME
-  api_key:
-    secure: APIKEYFROMRACKSPACE
-  region: REGION
-  container: CONTAINERNAME
-  skip_cleanup: true
-  on:
-    repo: caseyCaseybecking/www_caseybecking_com_hugo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Login to the Control Panel and goto &lt;strong&gt;Account Settings&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Under &lt;strong&gt;Login Details&lt;/strong&gt; you will see &lt;strong&gt;API KEY&lt;/strong&gt; - Copy That&lt;/li&gt;
-&lt;li&gt;Install the &lt;a href=&#34;https://github.com/travis-ci/travis.rb&#34;&gt;Travis CLI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;CD into your current hugo working directory&lt;/li&gt;
-&lt;li&gt;Execute &lt;code&gt;travis setup cloudfiles&lt;/code&gt;
-&lt;em&gt;This will ask you a few questions for setup and create the &lt;em&gt;.travis.yml&lt;/em&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Once this file is created you can push it to your repo (modification may be needed).&lt;/p&gt;
-
-&lt;p&gt;Now withing Travis you should be able to view the repo within &lt;em&gt;My Repositories&lt;/em&gt; flip the switch so it is enabled and it should try to build.&lt;/p&gt;
-</description>
+      <guid>http://caseybecking.com/post/hugo-to-rackspace-using-travis/</guid>
+      <description>After reading Evan Browns post Hugo on the go I was inspired to figure out how to do this exact same thing but as opposed to using AWS I wanted to use Rackspace Cloud FIles and more specfically Rackspace Static Website feature, because Rackspace Cloud Files is an inexpensive way to store and distribute objects, the Cloud Files static website feature coupled with the lightning-fast content delivery network (CDN) is a winning combination in terms of both performance and price.</description>
     </item>
     
   </channel>

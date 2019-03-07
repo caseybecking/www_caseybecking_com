@@ -6,7 +6,7 @@ title = "Contact"
 topics = []
 
 +++
-* E-mail: [casey@caseybecking.com](mailto:casey@caseybecking.com)
+* E-mail: [me@caseybecking.com](mailto:me@caseybecking.com)
 * Twitter:[@caseybecking](http://www.twitter.com/caseybecking)
 * LinkedIn:	[http://www.linkedin.com/in/caseybecking/](http://www.linkedin.com/in/caseybecking/)
 * IRC: caseybecking on irc.freenode.net

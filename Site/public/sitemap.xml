@@ -1,189 +1,197 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.caseybecking.com/post/future-stack-2016/</loc>
+    <loc>http://caseybecking.com/post/what-have-i-been-doing/</loc>
+    <lastmod>2019-03-06T18:29:14-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/post/future-stack-2016/</loc>
     <lastmod>2017-01-03T09:38:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/killing-the-tech-interview/</loc>
+    <loc>http://caseybecking.com/post/killing-the-tech-interview/</loc>
     <lastmod>2017-01-01T08:34:15-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/hugo-to-rackspace-using-travis/</loc>
+    <loc>http://caseybecking.com/post/hugo-to-rackspace-using-travis/</loc>
     <lastmod>2016-09-09T14:19:15-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/ansible-2-0/</loc>
+    <loc>http://caseybecking.com/post/ansible-2-0/</loc>
     <lastmod>2016-09-03T10:03:21-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/contact/</loc>
+    <loc>http://caseybecking.com/contact/</loc>
     <lastmod>2016-08-30T20:07:33-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/youve-been-hacked/</loc>
+    <loc>http://caseybecking.com/post/youve-been-hacked/</loc>
     <lastmod>2016-08-30T18:46:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/about/</loc>
+    <loc>http://caseybecking.com/about/</loc>
     <lastmod>2016-08-30T18:29:14-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/2012-12-15-american-flag/</loc>
+    <loc>http://caseybecking.com/post/2012-12-15-american-flag/</loc>
     <lastmod>2016-08-30T18:29:14-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/2016-08-30-biggest-data-breaches-of-2015/</loc>
+    <loc>http://caseybecking.com/post/2016-08-30-biggest-data-breaches-of-2015/</loc>
     <lastmod>2016-08-30T18:29:14-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/2012-12-25-galaxy-s3/</loc>
+    <loc>http://caseybecking.com/post/2012-12-25-galaxy-s3/</loc>
     <lastmod>2016-08-30T18:29:14-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/2012-12-15-i-digress/</loc>
+    <loc>http://caseybecking.com/post/2012-12-15-i-digress/</loc>
     <lastmod>2016-08-30T18:29:14-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/2012-12-13-round-37/</loc>
+    <loc>http://caseybecking.com/post/2012-12-13-round-37/</loc>
     <lastmod>2016-08-30T18:29:14-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/2012-12-31-thoughts-on-jekyll/</loc>
+    <loc>http://caseybecking.com/post/2012-12-31-thoughts-on-jekyll/</loc>
     <lastmod>2016-08-30T18:29:14-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/2013-01-21-where-i-want-to-be/</loc>
+    <loc>http://caseybecking.com/post/2013-01-21-where-i-want-to-be/</loc>
     <lastmod>2016-08-30T18:29:14-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/2012-12-13-why-i-contribute-to-mozilla/</loc>
+    <loc>http://caseybecking.com/post/2012-12-13-why-i-contribute-to-mozilla/</loc>
     <lastmod>2016-08-30T18:29:14-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/but-i-run-magento/</loc>
+    <loc>http://caseybecking.com/post/but-i-run-magento/</loc>
     <lastmod>2016-08-30T17:39:47-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/tags/ansible/</loc>
+    <loc>http://caseybecking.com/tags/ansible/</loc>
     <lastmod>2016-09-03T10:03:21-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/tags/breaches/</loc>
+    <loc>http://caseybecking.com/tags/breaches/</loc>
     <lastmod>2016-08-30T18:46:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/</loc>
-    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
+    <loc>http://caseybecking.com/</loc>
+    <lastmod>2019-03-06T18:29:14-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/topics/development/</loc>
-    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.caseybecking.com/tags/development/</loc>
+    <loc>http://caseybecking.com/tags/development/</loc>
     <lastmod>2016-09-03T10:03:21-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/tags/devlopment/</loc>
+    <loc>http://caseybecking.com/topics/development/</loc>
     <lastmod>2016-09-09T14:19:15-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/topics/futurestack/</loc>
-    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.caseybecking.com/tags/futurestack/</loc>
-    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.caseybecking.com/tags/hugo/</loc>
+    <loc>http://caseybecking.com/tags/devlopment/</loc>
     <lastmod>2016-09-09T14:19:15-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/tags/infrastrcutre/</loc>
+    <loc>http://caseybecking.com/tags/futurestack/</loc>
     <lastmod>2017-01-03T09:38:03-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/tags/interview/</loc>
+    <loc>http://caseybecking.com/topics/futurestack/</loc>
+    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/hugo/</loc>
+    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/infrastrcutre/</loc>
+    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/interview/</loc>
     <lastmod>2017-01-01T08:34:15-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/tags/magento/</loc>
+    <loc>http://caseybecking.com/tags/magento/</loc>
     <lastmod>2016-08-30T18:46:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/post/</loc>
+    <loc>http://caseybecking.com/post/</loc>
+    <lastmod>2019-03-06T18:29:14-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/rackspace/</loc>
     <lastmod>2017-01-03T09:38:03-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/tags/rackspace/</loc>
-    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
+    <loc>http://caseybecking.com/tags/</loc>
+    <lastmod>2016-09-03T10:03:21-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.caseybecking.com/tags/technical/</loc>
+    <loc>http://caseybecking.com/tags/technical/</loc>
     <lastmod>2017-01-01T08:34:15-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/topics/technical-interviews/</loc>
+    <loc>http://caseybecking.com/topics/technical-interviews/</loc>
     <lastmod>2017-01-01T08:34:15-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.caseybecking.com/topics/</loc>
+    <loc>http://caseybecking.com/topics/</loc>
+    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
     <priority>0</priority>
   </url>
   
