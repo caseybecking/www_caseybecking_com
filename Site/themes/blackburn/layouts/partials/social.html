@@ -9,15 +9,30 @@
 
     <!-- SNS microblogging -->
 
-    {{ with .Site.Social.twitter }}
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/{{ . }}" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
-    {{ end }}
+   
 
     {{ with .Site.Social.gnusocial }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="{{ . }}" target="_blank"><i class="fa fa-comment fa-fw"></i>GNU social</a>
+    </li>
+    {{ end }}
+
+    {{ with .Site.Social.linkedin }}
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/{{ . }}" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    {{ end }}
+
+    {{ with .Site.Social.github }}
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/{{ . }}" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    {{ end }}
+
+
+    {{ with .Site.Social.stackoverflow }}
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://stackoverflow.com/users/{{ . }}" target="_blank"><i class="fa fa-stack-overflow fa-fw"></i>Stack Overflow</a>
     </li>
     {{ end }}
 
@@ -40,6 +55,12 @@
     {{ end }}
 
     <!-- SNS photo/video sharing -->
+    {{ with .Site.Social.twitter }}
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/{{ . }}" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    {{ end }}
+
 
     {{ with .Site.Social.instagram }}
     <li class="pure-menu-item">
@@ -47,6 +68,7 @@
     </li>
     {{ end }}
 
+ 
     {{ with .Site.Social.flickr }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://flickr.com/photos/{{ . }}" target="_blank"><i class="fa fa-flickr fa-fw"></i>Flickr</a>
@@ -85,12 +107,7 @@
 
     <!-- SNS career oriented -->
 
-    {{ with .Site.Social.linkedin }}
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://linkedin.com/in/{{ . }}" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
-    </li>
-    {{ end }}
-
+  
     {{ with .Site.Social.xing }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://xing.com/profile/{{ . }}" target="_blank"><i class="fa fa-xing-square fa-fw"></i>Xing</a>
@@ -113,23 +130,13 @@
 
     <!-- Techie -->
 
-    {{ with .Site.Social.github }}
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://github.com/{{ . }}" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
-    </li>
-    {{ end }}
-
+ 
     {{ with .Site.Social.bitbucket }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://bitbucket.org/{{ . }}" target="_blank"><i class="fa fa-bitbucket-square fa-fw"></i>Bitbucket</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.stackoverflow }}
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://stackoverflow.com/users/{{ . }}" target="_blank"><i class="fa fa-stack-overflow fa-fw"></i>Stack Overflow</a>
-    </li>
-    {{ end }}
 
     {{ with .Site.Social.serverfault }}
     <li class="pure-menu-item">

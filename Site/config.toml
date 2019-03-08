@@ -8,6 +8,7 @@ canonifyurls = true
 paginate = 10
 theme = "blackburn"
 
+
 [indexes]
   tag = "tags"
   topic = "topics"
@@ -50,14 +51,16 @@ theme = "blackburn"
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
 
+# SNS career oriented
+  linkedin = "caseybecking"
+
   # SNS microblogging
   twitter = "caseybecking"
 
   # SNS photo/video sharing
   instagram = "caseybecking"
 
-  # SNS career oriented
-  linkedin = "caseybecking"
+  
 
   # SNS news
   # reddit = "*"
@@ -68,4 +71,4 @@ theme = "blackburn"
   stackoverflow = "145928/casey-becking"
 
   # Music
-  lastfm = "cbecking"
+  # lastfm = "cbecking"

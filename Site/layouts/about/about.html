@@ -4,9 +4,13 @@
   <h1>{{ .Title }}</h1>
 </div>
 <div class="content">
+
+<h2><center><a href="/Casey_Becking_Resume.pdf">Download Resume</a></center></h2>
+<!-- 
 <p><a href="/about">Casey Becking</a> is a driven, passionate and experience professional within the Ecommerce/ IT systems branch.</p>
 <p>Currently working in the critical application support department for <a href="{{ $.Site.Data.jobs.rackspace.url}}">{{ $.Site.Data.jobs.rackspace.name}}</a> and perviously managed <a href="{{ $.Site.Data.jobs.volcom.url}}">{{ $.Site.Data.jobs.volcom.name}}</a>, on behalf of <a href="{{ $.Site.Data.jobs.kering.url}}">{{ $.Site.Data.jobs.kering.name}}</a> Shared Services. Stand out system architect/Technical Liaison able to speak both business and technical elements with clients</p>
-<p>Particularly focusing on enterprise-level development and infrastructure architecture, Casey strives to help his customers reach the full potential of their enterprises by cutting useless extra costs and maximizing their networks and systems.</p>
+<p>Particularly focusing on enterprise-level development and infrastructure architecture, Casey strives to help his customers reach the full potential of their enterprises by cutting useless extra costs and maximizing their networks and systems.</p> 
+-->
 
 <h1>History</h1>
 {{ range $.Site.Data.jobs }}
@@ -17,15 +21,37 @@
 		From <i>{{ range .hire }}{{ . }}{{ end }}</i> - To  <i>{{ range .term }}{{ . }}{{ end }}</i>
 	<h3>Responsibilities</h3> 
 	{{ range .descriptions }}
-		<li>{{ . }}</li>
+	<ul>	
+	<li>{{ . }}</li>
+</ul>
 	{{ end }}
 	
 	<h3>Technologies Used</h3> 
 	{{ range .dailyTechnologies }}
+	<ul>
 		<li>{{ . }}</li>
-	{{ end }}
-
+	</ul>
+		{{ end }}
+		<hr />
 {{ end }}
+
+
+<h1>Professional References</h1>
+{{ range $.Site.Data.references }}
+<b>{{ range .name }}{{ . }}{{ end }}</b><br/>
+
+{{ range .position }}{{ . }}{{ end }}<br/>
+
+{{ range .company }}{{ . }}{{ end }}<br/>
+
+{{ range .date }}{{ . }}{{ end }}<br/><br/>
+
+{{ range .description }}{{ . }}{{ end }}
+
+<hr />
+<br/>
+{{ end }}
+
 
 </div>
 
