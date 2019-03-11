@@ -3,6 +3,8 @@ description = "Where has Casey Been"
 title = "Where has Casey Been"
 author = "Casey Becking"
 date = "2019-03-06T18:29:14-07:00"
+tags = ["Personal"]
+topics = ["Personal"]
 +++
 
 What have I been doing in the past 2 years since my last post. **A TON!!**

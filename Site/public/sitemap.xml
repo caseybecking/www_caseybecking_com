@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://caseybecking.com/post/make-it-your-job/</loc>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://caseybecking.com/post/what-have-i-been-doing/</loc>
     <lastmod>2019-03-06T18:29:14-07:00</lastmod>
   </url>
@@ -88,6 +93,10 @@
   </url>
   
   <url>
+    <loc>http://caseybecking.com/post/04-04-2019/</loc>
+  </url>
+  
+  <url>
     <loc>http://caseybecking.com/tags/ansible/</loc>
     <lastmod>2016-09-03T10:03:21-07:00</lastmod>
     <priority>0</priority>
@@ -101,7 +110,7 @@
   
   <url>
     <loc>http://caseybecking.com/</loc>
-    <lastmod>2019-03-06T18:29:14-07:00</lastmod>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -120,6 +129,12 @@
   <url>
     <loc>http://caseybecking.com/tags/devlopment/</loc>
     <lastmod>2016-09-09T14:19:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/employment/</loc>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -154,14 +169,38 @@
   </url>
   
   <url>
+    <loc>http://caseybecking.com/tags/interviews/</loc>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/topics/job-search/</loc>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://caseybecking.com/tags/magento/</loc>
     <lastmod>2016-08-30T18:46:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://caseybecking.com/post/</loc>
+    <loc>http://caseybecking.com/tags/personal/</loc>
     <lastmod>2019-03-06T18:29:14-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/topics/personal/</loc>
+    <lastmod>2019-03-06T18:29:14-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/post/</loc>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
