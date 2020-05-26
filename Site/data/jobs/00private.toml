@@ -1,0 +1,38 @@
+dailyTechnologies = [
+"terraform",
+"packer",
+"docker",
+"linux",
+"aws",
+
+]
+
+responsibilities = [
+
+]
+
+positions = [
+"Senior Cloud Operations Engineer & Security Engineer at Various Private Companies",
+]
+
+descriptions = [
+
+
+"Automation of Major Incident workflow from Ticket creation to Ticket Close. All steps fully automated.",
+"Mentoring and assisting lower tier engineers in technology related tasks",
+"Lead business in technical projects as well as timeline a delivery of large scale projects",
+"Security research and debugging within cloud networks",
+"Escalation point for a set of customers and/or Tier 2 Engineers from a technical standpoint",
+"Identify security solutions and implement a multi-layered defense to protect the networks.",
+"Follow ITIL processes (Incident, Change and Problem Management)",
+"Lead Problem Management efforts to ensure 100% uptime without manual intervention",
+"Adhere to strict Change Management policies and lead daily Change Advisory Board (CAB) reviews",
+"Participate in recruiting efforts for open positions under the Cloud Operations team",
+"Automate customer and business processes using internal and external API's",
+]
+
+hire = ["02/28/2019"]
+term = ["Current"]
+url =  [""]
+name = ["Various Private Companies"]
+location = ["Remote"]

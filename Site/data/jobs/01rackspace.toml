@@ -1,7 +1,8 @@
 dailyTechnologies = [
-"ansible",
+"terraform",
+"packer",
+"docker",
 "linux",
-"magento",
 "aws",
 
 ]
@@ -11,24 +12,21 @@ responsibilities = [
 ]
 
 positions = [
-"Critical Application Support Engineer",
+"DevOps Engineer - Fanatical Support for AWS at Rackspace",
 ]
 
 descriptions = [
-"Act as a consultative resource for customers to assist them in achieving their business objectives",
+"AWS Certified Solutions Architect - Associate",
+"Automating workloads across multiple public cloud providers",
+"Resolve single points of failure and non-redundant systems",
+"Developing AWS Infrastructure using CloudFormation Templates",
+"Building distributed, highly available and scaleable infrastructure",
 "Pro-actively seek opportunities to review solution architecture then put forward and implement proposals for improvement",
-"Engages with the Account Team to ensure Critical Application Services client expectations are being fulfilled",
-"Respond to support requests and coordinate Customer support teams where appropriate",
-"Ensure appropriate technical documentation is in place for customer solutions",
-"Attend and participate in all customer service review meetings",
-"Identify opportunities for growth and advancement of the Service offering",
-"Mentor and assist in the development of other technical staff",
-"Engagement of every customer within portfolio at a minimum once per month",
-"Ensure customers realize the value of Customer Service through pro-active architecture reviews and consultancy work",
+"Mentor and assist in the development of other technical staff"
 ]
 
-hire = ["03/01/2016"]
-term = ["03/01/2017"]
+hire = ["03/01/2017"]
+term = ["02/28/2019"]
 url =  ["https://www.rackspace.com"]
 name = ["Rackspace"]
 location = ["San Antonio, TX"]
