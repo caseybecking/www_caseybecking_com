@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Casey Becking</title>
@@ -29,7 +29,7 @@ I&amp;rsquo;m a very early morning person I wake between 3-4am almost daily (wee
       
       <guid>http://caseybecking.com/post/what-have-i-been-doing/</guid>
       <description>What have I been doing in the past 2 years since my last post. A TON!!
-Professional Build Engineer I became a build engineer in early 2017. As a build engineer the basic outline of the job is to take Design Documents and build out infrastructure. This could have been done via a command line interface or via an automation tool (Terraform or Cloudformation templates). We spent time discussing with the customer their needs and wants as well as current architecture.</description>
+Professional Build Engineer I became a build engineer in early 2017. As a build engineer the basic outline of the job is to take Design Documents and build out infrastructure. This could have been done via a command line interface or via an automation tool (Terraform or [Cloudformation] (https://aws.amazon.com/cloudformation/aws-cloudformation-templates/) templates). We spent time discussing with the customer their needs and wants as well as current architecture.</description>
     </item>
     
     <item>

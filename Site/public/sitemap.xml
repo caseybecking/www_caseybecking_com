@@ -1,10 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://caseybecking.com/</loc>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/employment/</loc>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/interviews/</loc>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/topics/job-search/</loc>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://caseybecking.com/post/make-it-your-job/</loc>
     <lastmod>2019-03-11T06:37:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/post/</loc>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/</loc>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/topics/</loc>
+    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/topics/personal/</loc>
+    <lastmod>2019-03-06T18:29:14-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/personal/</loc>
+    <lastmod>2019-03-06T18:29:14-07:00</lastmod>
   </url>
   
   <url>
@@ -18,13 +63,73 @@
   </url>
   
   <url>
+    <loc>http://caseybecking.com/topics/futurestack/</loc>
+    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/futurestack/</loc>
+    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/infrastrcutre/</loc>
+    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/rackspace/</loc>
+    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/interview/</loc>
+    <lastmod>2017-01-01T08:34:15-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://caseybecking.com/post/killing-the-tech-interview/</loc>
     <lastmod>2017-01-01T08:34:15-08:00</lastmod>
   </url>
   
   <url>
+    <loc>http://caseybecking.com/tags/technical/</loc>
+    <lastmod>2017-01-01T08:34:15-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/topics/technical-interviews/</loc>
+    <lastmod>2017-01-01T08:34:15-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/topics/development/</loc>
+    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/devlopment/</loc>
+    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/hugo/</loc>
+    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://caseybecking.com/post/hugo-to-rackspace-using-travis/</loc>
     <lastmod>2016-09-09T14:19:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/ansible/</loc>
+    <lastmod>2016-09-03T10:03:21-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/development/</loc>
+    <lastmod>2016-09-03T10:03:21-07:00</lastmod>
   </url>
   
   <url>
@@ -35,6 +140,16 @@
   <url>
     <loc>http://caseybecking.com/contact/</loc>
     <lastmod>2016-08-30T20:07:33-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/breaches/</loc>
+    <lastmod>2016-08-30T18:46:57-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://caseybecking.com/tags/magento/</loc>
+    <lastmod>2016-08-30T18:46:57-07:00</lastmod>
   </url>
   
   <url>
@@ -94,144 +209,6 @@
   
   <url>
     <loc>http://caseybecking.com/post/04-04-2019/</loc>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/ansible/</loc>
-    <lastmod>2016-09-03T10:03:21-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/breaches/</loc>
-    <lastmod>2016-08-30T18:46:57-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/</loc>
-    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/development/</loc>
-    <lastmod>2016-09-03T10:03:21-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/topics/development/</loc>
-    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/devlopment/</loc>
-    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/employment/</loc>
-    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/futurestack/</loc>
-    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/topics/futurestack/</loc>
-    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/hugo/</loc>
-    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/infrastrcutre/</loc>
-    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/interview/</loc>
-    <lastmod>2017-01-01T08:34:15-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/interviews/</loc>
-    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/topics/job-search/</loc>
-    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/magento/</loc>
-    <lastmod>2016-08-30T18:46:57-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/personal/</loc>
-    <lastmod>2019-03-06T18:29:14-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/topics/personal/</loc>
-    <lastmod>2019-03-06T18:29:14-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/post/</loc>
-    <lastmod>2019-03-11T06:37:00-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/rackspace/</loc>
-    <lastmod>2017-01-03T09:38:03-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/</loc>
-    <lastmod>2016-09-03T10:03:21-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/tags/technical/</loc>
-    <lastmod>2017-01-01T08:34:15-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/topics/technical-interviews/</loc>
-    <lastmod>2017-01-01T08:34:15-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://caseybecking.com/topics/</loc>
-    <lastmod>2016-09-09T14:19:15-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
