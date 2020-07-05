@@ -1,173 +1,164 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Casey Becking</title>
-    <link>http://caseybecking.com/post/</link>
+    <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/</link>
     <description>Recent content in Posts on Casey Becking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017. All rights reserved.</copyright>
     <lastBuildDate>Mon, 11 Mar 2019 06:37:00 -0700</lastBuildDate>
     
-	<atom:link href="http://caseybecking.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://master.d1z5tt6ish06n4.amplifyapp.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Make it your day job</title>
-      <link>http://caseybecking.com/post/make-it-your-job/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/make-it-your-job/</link>
       <pubDate>Mon, 11 Mar 2019 06:37:00 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/make-it-your-job/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/make-it-your-job/</guid>
       <description>Make it your day job to find a job So right now I find my self looking for a new full time employment opportunity. I wanted to take some time to jot down how I&amp;rsquo;m doing this and how I think people should handle the opportunity that is present ed to them of being unemployed
 I&amp;rsquo;m a very early morning person I wake between 3-4am almost daily (weekends closer to 5) I go to the gym to get out of the house and go do something right when I wake up.</description>
     </item>
     
     <item>
       <title>Where has Casey Been</title>
-      <link>http://caseybecking.com/post/what-have-i-been-doing/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/what-have-i-been-doing/</link>
       <pubDate>Wed, 06 Mar 2019 18:29:14 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/what-have-i-been-doing/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/what-have-i-been-doing/</guid>
       <description>What have I been doing in the past 2 years since my last post. A TON!!
-Professional Build Engineer I became a build engineer in early 2017. As a build engineer the basic outline of the job is to take Design Documents and build out infrastructure. This could have been done via a command line interface or via an automation tool (Terraform or [Cloudformation] (https://aws.amazon.com/cloudformation/aws-cloudformation-templates/) templates). We spent time discussing with the customer their needs and wants as well as current architecture.</description>
+Professional Build Engineer I became a build engineer in early 2017. As a build engineer the basic outline of the job is to take Design Documents and build out infrastructure. This could have been done via a command line interface or via an automation tool (Terraform or Cloudformation templates). We spent time discussing with the customer their needs and wants as well as current architecture.</description>
     </item>
     
     <item>
       <title>Future Stack 2016</title>
-      <link>http://caseybecking.com/post/future-stack-2016/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/future-stack-2016/</link>
       <pubDate>Tue, 03 Jan 2017 09:38:03 -0800</pubDate>
       
-      <guid>http://caseybecking.com/post/future-stack-2016/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/future-stack-2016/</guid>
       <description>Why did I goto FutureStack 2016?
 Rackspace prides itself on having the most educated engineers in the industry and being able to send specific engineers to conferences is a large value add for Rackspace as a whole. This is why I was able to attend the new relic future stack 2016 conference in San Francisco. Today I&amp;rsquo;m going to go over a few of the key takeaways from the conference and how they will be able to be used immediately within our clients infrastructure and application.</description>
     </item>
     
     <item>
       <title>Killing the Tech Interview</title>
-      <link>http://caseybecking.com/post/killing-the-tech-interview/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/killing-the-tech-interview/</link>
       <pubDate>Sun, 01 Jan 2017 08:34:15 -0800</pubDate>
       
-      <guid>http://caseybecking.com/post/killing-the-tech-interview/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/killing-the-tech-interview/</guid>
       <description>Be Prepared - Be sure to bring not only your resume but any additional things that you think you will need for the interview. Bring a notebook with a pen to be able to write down notes as well during the meeting it shows that you&amp;rsquo;re paying attention and if anything comes up it is always nice to be able to write it down as a note to go back later and research it.</description>
     </item>
     
     <item>
       <title>Hugo to Rackspace using Travis</title>
-      <link>http://caseybecking.com/post/hugo-to-rackspace-using-travis/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/hugo-to-rackspace-using-travis/</link>
       <pubDate>Fri, 09 Sep 2016 14:19:15 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/hugo-to-rackspace-using-travis/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/hugo-to-rackspace-using-travis/</guid>
       <description>After reading Evan Browns post Hugo on the go I was inspired to figure out how to do this exact same thing but as opposed to using AWS I wanted to use Rackspace Cloud FIles and more specfically Rackspace Static Website feature, because Rackspace Cloud Files is an inexpensive way to store and distribute objects, the Cloud Files static website feature coupled with the lightning-fast content delivery network (CDN) is a winning combination in terms of both performance and price.</description>
     </item>
     
     <item>
       <title>Thought&#39;s on Ansible 2.0</title>
-      <link>http://caseybecking.com/post/ansible-2-0/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/ansible-2-0/</link>
       <pubDate>Sat, 03 Sep 2016 10:03:21 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/ansible-2-0/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/ansible-2-0/</guid>
       <description>There аrе mаnу ріtfаllѕ tо rеfасtоrіng ѕоftwаrе, ѕо why dіd we dесіdе to tасklе ѕuсh a mаjоr project? At thе tіmе we ѕtаrtеd thе wоrk оn v2, Ansible wаѕ аррrоxіmаtеlу three уеаrѕ оld аnd had rесеntlу сrоѕѕеd thе 1,000 соntrіbutоr mark. This hugе rаtе in grоwth аlѕо resulted іn a degree оf technical dеbt іn thе соdе, which wаѕ bеgіnnіng tо ѕhоw аѕ wе continued tо аdd fеаturеѕ.
 Ultimately, wе decided it wаѕ worth it tо tаkе a step bасk аnd rеwоrk some аѕресtѕ оf thе соdеbаѕе which had bееn рrоnе to hаvіng fеаturеѕ bоltеd оn wіthоut a сlеаr-сut аrсhіtесturаl vision.</description>
     </item>
     
     <item>
       <title>You’ve been hacked!  What to do to save your business.</title>
-      <link>http://caseybecking.com/post/youve-been-hacked/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/youve-been-hacked/</link>
       <pubDate>Tue, 30 Aug 2016 18:46:57 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/youve-been-hacked/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/youve-been-hacked/</guid>
       <description>There’s no denying that E-commerce has grown at an enormous rate in the last decade. For many companies, eCommerce has quickly become the fastest growing channel; if not the largest channel of sales. Yet sadly, with growth, come those who’d also like to profit from the hundreds of thousands of unprotected sites, ripe with personal data and payment details. Successful ecommerce platforms, such as Magento with 200,000+ installs, makes for a ripe target for the savvy hacker.</description>
     </item>
     
     <item>
       <title>American Flag</title>
-      <link>http://caseybecking.com/post/2012-12-15-american-flag/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2012-12-15-american-flag/</link>
       <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/2012-12-15-american-flag/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2012-12-15-american-flag/</guid>
       <description>So I was asked as a part of an interview to &amp;lsquo;Make an American flag with Html/CSS&amp;rsquo;. First thing that poped into my head that this is an amazing quiz. Next thing is damn I have to do this on a white board with a dry-erase marker. So heres what I came up with. JSFiddle. Let me know what you think. @Caseybecking</description>
     </item>
     
     <item>
       <title>Biggest Data Breaches of 2015</title>
-      <link>http://caseybecking.com/post/2016-08-30-biggest-data-breaches-of-2015/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2016-08-30-biggest-data-breaches-of-2015/</link>
       <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/2016-08-30-biggest-data-breaches-of-2015/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2016-08-30-biggest-data-breaches-of-2015/</guid>
       <description>2014 was certainly a big year for data breaches; impacting the likes of Adobe, Apple, Evernote, eBay, and Facebook….to name a few of the headliners. As 2015 came to a close, we saw even more breaches, hitting the likes of industries like health-care, financial, education, federal government, and eCommerce. While the threat of cyber security increases, the good news is that we’re seeing more and more companies getting educated, taking action, and making increased investments in both security technologies and people (CSO), for which to manage threats.</description>
     </item>
     
     <item>
       <title>Galaxy S3</title>
-      <link>http://caseybecking.com/post/2012-12-25-galaxy-s3/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2012-12-25-galaxy-s3/</link>
       <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/2012-12-25-galaxy-s3/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2012-12-25-galaxy-s3/</guid>
       <description>So I got my Galaxy S3 and returned my iPhone 5. I&amp;rsquo;ve had all the iPhones from OG -&amp;gt; 3G -&amp;gt; 4 -&amp;gt; 5. I loved them up until I got the iPhone 5. It didn&amp;rsquo;t change enough for me, it was kind of standard and not exciting. It was fast and the camera was nice but other than that it didn&amp;rsquo;t blow me away. So I went and got the Galaxy S3 and love it, ended up liking it more than I really thought I would.</description>
     </item>
     
     <item>
       <title>I digress</title>
-      <link>http://caseybecking.com/post/2012-12-15-i-digress/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2012-12-15-i-digress/</link>
       <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/2012-12-15-i-digress/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2012-12-15-i-digress/</guid>
       <description>So I wanted to take a second to talk about something other than code, development or anything geeky. With the shootings going on in multiple places now (Connecticut, Washington and California), I wanted to just say a few of my thoughts about it. Life is very short. I&amp;rsquo;m 28 years old and I already know this. The only reason I know this is because I now have my own little girl growing up way to fast (almost 2).</description>
     </item>
     
     <item>
       <title>Round 37</title>
-      <link>http://caseybecking.com/post/2012-12-13-round-37/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2012-12-13-round-37/</link>
       <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/2012-12-13-round-37/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2012-12-13-round-37/</guid>
       <description>I’m gonna give this another try at staying on top of it. I’m going to be posting often and see how long I can keep it going. Sorry for the forever long delay. I’m also not going to be using this site to display my portfolio. If you care to see all the junk I’ve worked on goto my GitHub page and check out some stuff there. Also i have removed all my old posts and am going to start fresh!</description>
     </item>
     
     <item>
       <title>Thoughts on Jekyll</title>
-      <link>http://caseybecking.com/post/2012-12-31-thoughts-on-jekyll/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2012-12-31-thoughts-on-jekyll/</link>
       <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/2012-12-31-thoughts-on-jekyll/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2012-12-31-thoughts-on-jekyll/</guid>
       <description>So I&amp;rsquo;ve been using Jekyll for a few months now with this blog and other little platforms here and there. I have to say I&amp;rsquo;m amazingly impressed on how easy it is to write a blog post and get it posted and up on a server on the web. Back in the day of wordpress days i used to have to log into WordPress go author the post, right all of the HTML markup, preview the post and then if everything worked out cleanly I was able to post it to my site.</description>
     </item>
     
     <item>
       <title>Where I want to be</title>
-      <link>http://caseybecking.com/post/2013-01-21-where-i-want-to-be/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2013-01-21-where-i-want-to-be/</link>
       <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/2013-01-21-where-i-want-to-be/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2013-01-21-where-i-want-to-be/</guid>
       <description>So a few days ago I started to think about where I want to be with my career. I know I like writing code. I don&amp;rsquo;t know much else (kinda sad). I want to work with a company where I get to write cool code and do something positive at the same time. Be able to give back to others who may not have all the chances I have been given.</description>
     </item>
     
     <item>
       <title>Why I contribute to Mozilla</title>
-      <link>http://caseybecking.com/post/2012-12-13-why-i-contribute-to-mozilla/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2012-12-13-why-i-contribute-to-mozilla/</link>
       <pubDate>Tue, 30 Aug 2016 18:29:14 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/2012-12-13-why-i-contribute-to-mozilla/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/2012-12-13-why-i-contribute-to-mozilla/</guid>
       <description>By far the most important thing I’ve learned in my career is knowledge. I’m able to expand on the knowledge that I have learned by contributing to the open source community and letting other people critique my code in ways that I had never thought I could do before. At first this might be a little bit scary, having someone look through your code and critique every , . &amp;amp; and function but it’s the best thing that’s ever happened to my code.</description>
     </item>
     
     <item>
       <title>But I run Magento.  I’m small.  Why would I get hacked?</title>
-      <link>http://caseybecking.com/post/but-i-run-magento/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/but-i-run-magento/</link>
       <pubDate>Tue, 30 Aug 2016 17:39:47 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/but-i-run-magento/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/but-i-run-magento/</guid>
       <description>After working with many small and mid-sized retailers in 2015, there is one thing they all have in common—the assumption that hackers won’t bother with them. Actually it’s the reverse - criminals have figured out small companies are easier to penetrate, and go after them more frequently. Why go for one big hack, of say eBay or Facebook, when you can hack 5,000+ sites which NEVER take notice?
 In spite of high-profile hacks such as against Apple, Cisco, or even the US Government, many online retailers still do not believe that they are at risk or have been a victim of undetected hacks by criminal groups.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://caseybecking.com/post/04-04-2019/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://caseybecking.com/post/04-04-2019/</guid>
-      <description>once again I&amp;rsquo;m going to try to keep a daily digest of what is going on in my day what I&amp;rsquo;m working on and what I would like to be working on. this may be very random at times but it also may be very insightful to look back in a significant amount of time to be able to figure out what I was working on.I will also try to format these overtime to make them more readable and less like a diary.</description>
     </item>
     
   </channel>

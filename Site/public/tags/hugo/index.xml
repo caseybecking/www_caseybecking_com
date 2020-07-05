@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Casey Becking</title>
-    <link>http://caseybecking.com/tags/hugo/</link>
+    <link>https://master.d1z5tt6ish06n4.amplifyapp.com/tags/hugo/</link>
     <description>Recent content in Hugo on Casey Becking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017. All rights reserved.</copyright>
     <lastBuildDate>Fri, 09 Sep 2016 14:19:15 -0700</lastBuildDate>
     
-	<atom:link href="http://caseybecking.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://master.d1z5tt6ish06n4.amplifyapp.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo to Rackspace using Travis</title>
-      <link>http://caseybecking.com/post/hugo-to-rackspace-using-travis/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/hugo-to-rackspace-using-travis/</link>
       <pubDate>Fri, 09 Sep 2016 14:19:15 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/hugo-to-rackspace-using-travis/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/hugo-to-rackspace-using-travis/</guid>
       <description>After reading Evan Browns post Hugo on the go I was inspired to figure out how to do this exact same thing but as opposed to using AWS I wanted to use Rackspace Cloud FIles and more specfically Rackspace Static Website feature, because Rackspace Cloud Files is an inexpensive way to store and distribute objects, the Cloud Files static website feature coupled with the lightning-fast content delivery network (CDN) is a winning combination in terms of both performance and price.</description>
     </item>
     

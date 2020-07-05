@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on Casey Becking</title>
-    <link>http://caseybecking.com/topics/development/</link>
+    <link>https://master.d1z5tt6ish06n4.amplifyapp.com/topics/development/</link>
     <description>Recent content in Development on Casey Becking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017. All rights reserved.</copyright>
     <lastBuildDate>Fri, 09 Sep 2016 14:19:15 -0700</lastBuildDate>
     
-	<atom:link href="http://caseybecking.com/topics/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://master.d1z5tt6ish06n4.amplifyapp.com/topics/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo to Rackspace using Travis</title>
-      <link>http://caseybecking.com/post/hugo-to-rackspace-using-travis/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/hugo-to-rackspace-using-travis/</link>
       <pubDate>Fri, 09 Sep 2016 14:19:15 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/hugo-to-rackspace-using-travis/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/hugo-to-rackspace-using-travis/</guid>
       <description>After reading Evan Browns post Hugo on the go I was inspired to figure out how to do this exact same thing but as opposed to using AWS I wanted to use Rackspace Cloud FIles and more specfically Rackspace Static Website feature, because Rackspace Cloud Files is an inexpensive way to store and distribute objects, the Cloud Files static website feature coupled with the lightning-fast content delivery network (CDN) is a winning combination in terms of both performance and price.</description>
     </item>
     
     <item>
       <title>Thought&#39;s on Ansible 2.0</title>
-      <link>http://caseybecking.com/post/ansible-2-0/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/ansible-2-0/</link>
       <pubDate>Sat, 03 Sep 2016 10:03:21 -0700</pubDate>
       
-      <guid>http://caseybecking.com/post/ansible-2-0/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/ansible-2-0/</guid>
       <description>There аrе mаnу ріtfаllѕ tо rеfасtоrіng ѕоftwаrе, ѕо why dіd we dесіdе to tасklе ѕuсh a mаjоr project? At thе tіmе we ѕtаrtеd thе wоrk оn v2, Ansible wаѕ аррrоxіmаtеlу three уеаrѕ оld аnd had rесеntlу сrоѕѕеd thе 1,000 соntrіbutоr mark. This hugе rаtе in grоwth аlѕо resulted іn a degree оf technical dеbt іn thе соdе, which wаѕ bеgіnnіng tо ѕhоw аѕ wе continued tо аdd fеаturеѕ.
 Ultimately, wе decided it wаѕ worth it tо tаkе a step bасk аnd rеwоrk some аѕресtѕ оf thе соdеbаѕе which had bееn рrоnе to hаvіng fеаturеѕ bоltеd оn wіthоut a сlеаr-сut аrсhіtесturаl vision.</description>
     </item>

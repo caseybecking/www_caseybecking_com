@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Infrastrcutre on Casey Becking</title>
-    <link>http://caseybecking.com/tags/infrastrcutre/</link>
+    <link>https://master.d1z5tt6ish06n4.amplifyapp.com/tags/infrastrcutre/</link>
     <description>Recent content in Infrastrcutre on Casey Becking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017. All rights reserved.</copyright>
     <lastBuildDate>Tue, 03 Jan 2017 09:38:03 -0800</lastBuildDate>
     
-	<atom:link href="http://caseybecking.com/tags/infrastrcutre/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://master.d1z5tt6ish06n4.amplifyapp.com/tags/infrastrcutre/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Future Stack 2016</title>
-      <link>http://caseybecking.com/post/future-stack-2016/</link>
+      <link>https://master.d1z5tt6ish06n4.amplifyapp.com/post/future-stack-2016/</link>
       <pubDate>Tue, 03 Jan 2017 09:38:03 -0800</pubDate>
       
-      <guid>http://caseybecking.com/post/future-stack-2016/</guid>
+      <guid>https://master.d1z5tt6ish06n4.amplifyapp.com/post/future-stack-2016/</guid>
       <description>Why did I goto FutureStack 2016?
 Rackspace prides itself on having the most educated engineers in the industry and being able to send specific engineers to conferences is a large value add for Rackspace as a whole. This is why I was able to attend the new relic future stack 2016 conference in San Francisco. Today I&amp;rsquo;m going to go over a few of the key takeaways from the conference and how they will be able to be used immediately within our clients infrastructure and application.</description>
     </item>
